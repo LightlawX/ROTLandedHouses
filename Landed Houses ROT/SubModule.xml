@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "ROT-LandedHouses"/>
+	<Id value = "ROT-LandedHouses"/>
+	<Version value = "v1.0.0"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="false"/>
+	<ModuleType value="Community" />
+	<DependedModules>
+    <DependedModule Id="Native" DependentVersion="v1.1.0" Optional="false"/>
+    <DependedModule Id="SandBoxCore" DependentVersion="v1.1.0" Optional="false"/>
+    <DependedModule Id="Sandbox" DependentVersion="v1.1.0" Optional="false"/>
+	<DependedModule Id="ROT-Core" Optional="false" DependentVersion="v1.5.0"/>
+	<DependedModule Id="ROT-Content" Optional="false" DependentVersion="v1.5.0"/>
+	</DependedModules>
+	<Xmls>
+		<XmlNode>                
+			<XmlName id="Heroes" path="heroes"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>               
+			<XmlName id="NPCCharacters" path="lords"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>               
+		<XmlNode>                
+			<XmlName id="Factions" path="spclans"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>               
+	</Xmls>
+</Module>

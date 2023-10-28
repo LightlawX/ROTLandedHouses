@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="main_hero"  father="Hero.main_hero_father" mother="Hero.main_hero_mother" faction="Faction.player_faction" />
+	<Hero id="main_hero_father" alive="false"  faction="Faction.player_faction" spouse="Hero.main_hero_mother" />
+	<Hero id="main_hero_mother" alive="false"  faction="Faction.player_faction" spouse="Hero.main_hero_father" />
+	<Hero id="dead_lord_2_1" alive="false" faction="Faction.clan_sturgia_2" />
+	<Hero id="dead_lord_2_2" alive="false" faction="Faction.clan_sturgia_2" />
+	<Hero id="dead_lord_3_1" alive="false" faction="Faction.clan_aserai_2" />
+	<Hero id="dead_lord_6_1" alive="false" faction="Faction.clan_khuzait_1" />
+	<Hero id="dead_lord_6_2" alive="false" faction="Faction.clan_khuzait_2" />
+	<Hero id="dead_lord_6_3" alive="false" faction="Faction.clan_khuzait_3" />
+	<Hero id="dead_lord_RH_5_4" alive="false" faction="Faction.clan_RH_5" text="Ryam Florent was a knight of House Florent, the father of Selyse, Imry and Erren. He was a younger brother of Lord Alester Florent. Died of a fall." />
+	<Hero id="dead_lord_6_4" father="Hero.dead_lord_6_3" alive="false" faction="Faction.clan_khuzait_3" />
+  <!-- Houses of Dorne -->
+  <!-- House Allyrion -->
+  <Hero id="lord_701_1" faction="Faction.clan_DA_1" text="Delonne Allyrion is the Lady of Godsgrace and the head of House Allyrion. She is the mother of Ser Ryon Allyrion." />
+  <Hero id="lord_701_2" spouse="Hero.lord_701_4" mother="Hero.lord_701_1" faction="Faction.clan_DA_1" text="Ryon Allyrion is a knight from House Allyrion. He is the son and heir of Delonne Allyrion, Lady of Godsgrace. Ryon is married to Ynys Yronwood, with whom he has children, at least two sons. He also has a bastard son, Ser Daemon Sand." />
+  <Hero id="lord_701_3" father="Hero.lord_701_2" faction="Faction.clan_DA_1" text="Daemon Sand, known as the Bastard of Godsgrace, is the bastard son of Ser Ryon Allyrion, the heir of House Allyrion. The knight is one of Dorne's finest swords." />
+  <Hero id="lord_701_4" spouse="Hero.lord_701_2" father="Hero.lord_3_17" faction="Faction.clan_DA_1" text="Ynys Yronwood is the eldest daughter of Lord Anders Yronwood. She is married to Ser Ryon Allyrion, with whom she has children, at least two sons." />
+  <!-- House Dalt-->
+  <Hero id="lord_702_1" faction="Faction.clan_DA_2" text="Ser Deziel Dalt is the Knight of Lemonwood and the head of House Dalt. He is the brother of Ser Andrey Dalt." />
+  <Hero id="lord_702_2" faction="Faction.clan_DA_2" text="Ser Andrey Dalt, sometimes called Drey, is the brother and heir of Ser Deziel Dalt, the Knight of Lemonwood." />
+  <!-- House Gargalen -->
+  <Hero id="lord_703_1" faction="Faction.clan_DA_3" text="Tremond Gargalen is the Lord of Salt Shore and the head of House Gargalen." />
+  <!-- House Fowler -->
+  <Hero id="lord_3_15" faction="Faction.clan_DA_4" text="Franklyn Fowler, called the Old Hawk, is the Lord of Skyreach and the head of House Fowler. He also holds the title Warden of the Prince's Pass. He is the father of the Fowler twins." />
+  <Hero id="lord_3_15_1" faction="Faction.clan_DA_4" />
+  <Hero id="lord_704_1"  father="Hero.lord_3_15" mother="Hero.lord_3_15_1" faction="Faction.clan_DA_4"  text="Jeyne Fowler is a daughter of Lord Franklyn Fowler, and a twin to Jennelyn. Jeyne is the elder of the two." />
+  <Hero id="lord_704_2"  father="Hero.lord_3_15" mother="Hero.lord_3_15_1" faction="Faction.clan_DA_4"  text="Jennelyn Fowler is a daughter of Lord Franklyn Fowler, and a twin to Jeyne. Jennelyn is the youngest of the two." />
+  <!-- House Santagar -->
+  <Hero id="lord_705_1" faction="Faction.clan_DA_5" text="Ser Symon Santagar, the Knight of Spottswood is head of House Santagar in Dorne. He has a daughter, Sylva Santagar, who is his heir." />
+  <!-- Houses of the Crownlands -->
+  <!-- House Chyttering -->
+  <Hero id="lord_CL_1_1" faction="Faction.clan_CL_1" text="Lord Chyttering is the head of House Chyttering. He is the father of Lucos Chyttering." /> 
+  <Hero id="lord_CL_1_2" father="Hero.lord_CL_1_1" faction="Faction.clan_CL_1" text="Lucos Chyttering, called Little Lucos, is the heir of House Chyttering." />
+  <!-- House Farring -->
+  <Hero id="lord_CL_2_1" faction="Faction.clan_CL_2" text="Ser Gilbert Farring is a knight of House Farring. His son is Bryen Farring, a young squire of Stannis Baratheon. He is the cousin of Ser Godry Farring." />
+  <Hero id="lord_CL_2_2" father="Hero.lord_CL_2_1" faction="Faction.clan_CL_2" text="Bryen Farring is a member of House Farring, and a squire of Stannis Baratheon. He is the son of Ser Gilbert Farring." />
+  <Hero id="lord_CL_2_3" faction="Faction.clan_CL_2" text="Ser Godry Farring, called Godry the Giantslayer, is a knight of House Farring and a supporter of Stannis Baratheon. He is the cousin of Ser Gilbert Farring." />
+  <!-- House Slynt -->
+  <Hero id="lord_CL_4_1" faction="Faction.clan_CL_4" text="Janos Slynt is the head of House Slynt and commander of the City Watch of King's Landing. His father was a butcher." />
+  <Hero id="lord_CL_4_2" father="Hero.lord_CL_4_1" faction="Faction.clan_CL_4" text="Morros Slynt is the eldest son of Janos Slynt." />
+  <Hero id="lord_CL_4_3" father="Hero.lord_CL_4_1" faction="Faction.clan_CL_4" text="Jothos Slynt is the second son of Janos Slynt." />
+  <Hero id="lord_CL_4_4" father="Hero.lord_CL_4_1" faction="Faction.clan_CL_4" text="Danos Slynt is the third son of Janos Slynt." />
+  <!-- House Stokeworth -->
+  <Hero id="lord_CL_5_1" faction="Faction.clan_CL_5" text="Tanda Stokeworth is the Lady of Stokeworth and the head of House Stokeworth." />
+  <Hero id="lord_CL_5_2" mother="Hero.lord_CL_5_1" faction="Faction.clan_CL_5" text="Lady Falyse Stokeworth is the heir of Lady Tanda Stokeworth of Stokeworth. She has been married to Ser Balman Byrch for ten years, but they remain childless." />
+  <Hero id="lord_CL_5_3" mother="Hero.lord_CL_5_1" faction="Faction.clan_CL_5" text="Lollys Stokeworth is the youngest daughter of Lady Tanda Stokeworth of Stokeworth." />
+  <Hero id="lord_CL_5_4" mother="Hero.lord_CL_5_3" faction="Faction.clan_CL_5" text="Tyrion Tanner is the bastard son of Lollys Stokeworth and an unknown father." />
+  <!-- House Sunglass -->
+  <Hero id="lord_CL_6_1" faction="Faction.clan_CL_6" text="Guncer Sunglass is the Lord of Sweetport Sound and head of House Sunglass. He has at least one brother." />
+  <Hero id="lord_CL_6_2" faction="Faction.clan_CL_6" text="Lord Sunglass is the brother and heir of Lord Guncer Sunglass." />
+  <Hero id="lord_CL_6_3" faction="Faction.clan_CL_6" text="Ser Triston of Tally Hill is a knight in service to House Sunglass. He is from Tally Hill." />
+	<!-- Houses of the Iron Islands -->
+	<!-- House Codd -->
+	<Hero id="lord_II_1_1" faction="Faction.clan_II_1" text="Lucas Codd, known as Left-Hand Lucas Codd, is an ironborn raider and member of House Codd." />
+	<Hero id="lord_II_1_2" faction="Faction.clan_II_1" text="Eldred Codd is an ironborn raider and a member of House Codd." />
+	<Hero id="lord_II_1_3" faction="Faction.clan_II_1" text="Tom Codd, known as Bloodless Tom, is the captain of the ship Lamentation in the Iron Fleet. He is under the command of Victarion Greyjoy." />
+	<Hero id="lord_II_1_4" faction="Faction.clan_II_1" text="Dagon Codd is an ironborn warrior and a member of House Codd. Dagon is a big man, wide mouthed and pop eyed with pale skin." />
+	<!-- House Harlaw of Grey Garden -->
+	<Hero id="lord_II_2_1" faction="Faction.clan_II_2" text="Ser Harras Harlaw, known as the Knight, is the head of House Harlaw of Grey Garden and the knight of Grey Garden. A knight, Harras is the heir of House Harlaw of Ten Towers, as its current lord, Rodrik Harlaw, has no surviving children. Harras is tall with a long face and is austere. He bears a Valyrian steel sword, Nightfall." />
+	<!-- House Harlaw of Harlaw Hall -->
+	<Hero id="lord_II_3_1" faction="Faction.clan_II_3" text="Sigfryd Harlaw, called Sigfryd Silverhair, is a nobleman of House Harlaw and the master of Harlaw Hall." />
+	<!-- House Harlaw of Harridan Hill -->
+	<Hero id="lord_II_4_1" faction="Faction.clan_II_4" text="Boremund Harlaw, known as Boremund the Blue, is a member of House Harlaw. He is the master of the castle Harridan Hill. His personal sigil is the Harlaw scythe on a pale blue field. He has three sons." />
+	<!-- House Harlaw of Tower of Glimmering -->
+	<Hero id="lord_II_5_1" faction="Faction.clan_II_5" text="Hotho Harlaw, known as Hotho Humpback, is a member of House Harlaw and the master of the Tower of Glimmering. His personal sigil is the Harlaw scythe girdled within an embattled border." />
+	<!-- House Kenning of Harlaw -->
+	<Hero id="lord_II_6_1" faction="Faction.clan_II_6" text="Lord Kenning is the head of House Kenning of Harlaw and a bannerman to Lord Rodrik Harlaw of Harlaw." />
+	<Hero id="lord_II_6_2" faction="Faction.clan_II_6" text="Ralf Kenning is an ironborn captain, raider and a member of House Kenning of Harlaw." />
+	<Hero id="lord_II_6_3" faction="Faction.clan_II_6" text="Qarl Kenning, known as Queer Qarl Kenning, is a member of House Kenning of Harlaw." />
+	<!-- House Stonetree -->
+	<Hero id="lord_II_11_1" faction="Faction.clan_II_11" text="Lord Stonetree is the head of House Stonetree and a bannerman to Lord Rodrik Harlaw of Harlaw." />
+	<Hero id="lord_II_11_2" faction="Faction.clan_II_11" text=" Sigfry Stonetree is an ironborn raider and a member of House Stonetree. He is considered cheerful." />
+	<!-- House Wynch -->
+	<Hero id="lord_II_14_1" faction="Faction.clan_II_14" text="Waldon Wynch is the Lord of Iron Holt and the head of House Wynch." />
+	<!-- Houses of the North -->
+	<!-- House Liddle -->
+	<Hero id="lord_NH_1_1" faction="Faction.clan_NH_1" text="Torren Liddle, called the Liddle, is the clan chief of House Liddle, a mountain clan in the North. He is the father of Duncan, Morgan and Rickard Liddle." />
+	<Hero id="lord_NH_1_2" father="Hero.lord_NH_1_1" faction="Faction.clan_NH_1" text="Morgan Liddle is the second son of Lord Torren Liddle, known as the Liddle, the clan chief of House Liddle, a mountain clan in the North. Other northmen call him Middle Liddle, though not often in his hearing. He is the heir apparent of his father Torren, as his elder brother, Duncan, is a sworn brother of the Night's Watch." />
+	<Hero id="lord_NH_1_3" father="Hero.lord_NH_1_1" faction="Faction.clan_NH_1" text="Rickard Liddle known as Little Liddle, is the youngest son of Lord Torren Liddle, known as the Liddle, the clan chief of House Liddle, a mountain clan in the north." />
+	<!-- House Wull -->
+	<Hero id="lord_NH_2_1" faction="Faction.clan_NH_2" text="Hugo Wull, called Big Bucket and the Wull, is the clan chief of House Wull in the north. He commands the most men of the northern mountain clans." />
+	<!-- Houses of the Reach -->
+	<!-- House Ambrose -->
+	<Hero id="lord_RH_1_1" faction="Faction.clan_RH_1" text="Arthur Ambrose is the head of House Ambrose. He is married to Alysanne Hightower and has a son named Alyn." />
+	<Hero id="lord_RH_1_2" faction="Faction.clan_RH_1" text="Lady Alysanne Hightower is a daughter of Lord Leyton Hightower. She is married to Lord Arthur Ambrose. Together, they have a son, Alyn Ambrose." />
+	<Hero id="lord_RH_1_3" father="Hero.lord_RH_1_1" mother="Hero.lord_RH_1_2" faction="Faction.clan_RH_1" text="Alyn Ambrose is a squire from House Ambrose. The son of Lord Arthur Ambrose and Lady Alysanne Hightower, Alyn is betrothed to Elinor Tyrell." />
+	<Hero id="lord_RH_1_4" faction="Faction.clan_RH_1" text="Edmund Ambrose is a knight from House Ambrose. His relation to Lord Arthur Ambrose, the head of House Ambrose, is unknown." />
+	<!-- House Chester -->
+	<Hero id="lord_RH_2_1" faction="Faction.clan_RH_2" text="Moribald Chester is the Lord of Greenshield and the head of House Chester." />
+	<!-- House Costayne -->
+	<Hero id="lord_RH_3_1" faction="Faction.clan_RH_3" text="Tommen Costayne is Lord of the Three Towers and head of House Costayne in the Reach." />
+	<!-- House Crane -->
+	<Hero id="lord_RH_4_1" faction="Faction.clan_RH_4" text="Ser Vortimer Crane is a knight of House Crane and the master-at-arms at Highgarden." />
+	<Hero id="lord_RH_4_2" faction="Faction.clan_RH_4" text="Ser Parmen Crane, also known as Parmen the Purple, is a knight of House Crane. He is named to King Renly I's Rainbow Guard." />
+	<Hero id="lord_RH_4_3" faction="Faction.clan_RH_4" text=" Rycherd Crane is a knight from House Crane and is the husband of Rylene Florent, the sister of Lord Alester Florent of Brightwater Keep." />
+	<Hero id="lord_RH_4_4" faction="Faction.clan_RH_4" text="Meredyth Crane, known as Merry Crane, is a noblewoman of House Crane." />
+	<!-- House Florent -->
+	<Hero id="lord_RH_5_1" spouse="Hero.lord_RH_5_2" faction="Faction.clan_RH_5" text="Alester is an older man in his middle years, tall and slender. His long, elegant face has silvery grey hair and a pointed beard. He appears pale and pampered." />
+	<Hero id="lord_RH_5_2" spouse="Hero.lord_RH_5_1" faction="Faction.clan_RH_5" text="Melara Crane is a noblewoman of House Crane and is married to Lord Alester Florent. She has one son, Alekyne, and two daughters, Melessa and Rhea. Melara is also the maternal grandmother of Samwell Tarly." />
+	<Hero id="lord_RH_5_3" father="Hero.lord_RH_5_1" mother="Hero.lord_RH_5_2" faction="Faction.clan_RH_5" text="Alekyne Florent is the only son of Lord Alester Florent and Lady Melara Crane, and the heir to Brightwater Keep. He has two younger sisters, Melessa and Rhea." />
+	<Hero id="lord_RH_5_5" father="Hero.dead_lord_RH_5_4" faction="Faction.clan_RH_5" text="Imry Florent is a knight of House Florent. He is the son of Ser Ryam Florent and brother to Selyse and Erren. Imry is brother-in-law to Stannis Baratheon." />
+	<Hero id="lord_RH_5_6" father="Hero.dead_lord_RH_5_4" faction="Faction.clan_RH_5" text="Erren Florent is knight of House Florent, the son of Ser Ryam Florent and brother to Selyse and Imry. Erren is brother-in-law to Stannis Baratheon." />
+	<Hero id="lord_RH_5_7" faction="Faction.clan_RH_5" text="Colin Florent is a knight from House Florent and the younger brother to Alester Florent, Lord of Brightwater Keep." />
+	<Hero id="lord_RH_5_8" father="Hero.lord_RH_5_7" faction="Faction.clan_RH_5" text="Merrell Florent is the youngest son of Ser Colin Florent." />
+	<!-- House Fossoway of Ciderhall -->
+	<Hero id="lord_RH_6_1" faction="Faction.clan_RH_6" text="Ser Tanton Fossoway is a knight from House Fossoway of Cider Hall in service to Lord Mace Tyrell of Highgarden." />
+	<Hero id="lord_RH_6_2" faction="Faction.clan_RH_6" text="Ser Bryan Fossoway is a knight from House Fossoway of Cider Hall." />
+	<Hero id="lord_RH_6_3" faction="Faction.clan_RH_6" text="Ser Edwyd Fossoway is a knight from House Fossoway of Cider Hall." />
+	<!-- House Fossoway of New Barrel -->
+	<Hero id="lord_RH_7_1" spouse="Hero.lord_RH_7_2" faction="Faction.clan_RH_7" text="Ser Jon Fossoway is a knight from House Fossoway of New Barrel. He is married to Lady Janna Fossoway, the sister of Lord Mace Tyrell of Highgarden." />
+	<Hero id="lord_RH_7_2" spouse="Hero.lord_RH_7_1" faction="Faction.clan_RH_7" text="Janna Fossoway, née Tyrell, is the wife of Ser Jon Fossoway of the green-apple Fossoways. She is the youngest daughter of Lord Luthor Tyrell and Lady Olenna Tyrell. Janna has two siblings: Mace Tyrell, the current Lord of Highgarden, and an older sister, Mina." />
+	<!-- House Grimm of Greyshield -->
+	<Hero id="lord_RH_9_1" faction="Faction.clan_RH_9" text="Lord Guthor Grimm is the Lord of Greyshield in the Shield Islands and the head of House Grimm." />
+	<!-- House Hewett of Oakenshield -->
+	<Hero id="lord_RH_10_1" faction="Faction.clan_RH_10" text="Humfrey Hewett is the head of House Hewett and the Lord of Oakenshield, one of the Shield Islands in the Reach. He has seven daughters and good-daughters, as well as a bastard daughter, Falia Flowers." />
+	<!-- House Mullendore of Uplands -->
+	<Hero id="lord_RH_13_1" faction="Faction.clan_RH_13" text="Martyn Mullendore is the Lord of Uplands and the head of House Mullendore." />
+	<Hero id="lord_RH_13_2" faction="Faction.clan_RH_13" text="Ser Mark Mullendore is a knight from House Mullendore in the Reach. His relation to Martyn Mullendore, the Lord of Uplands and the head of House is unknown." />
+	<!-- House Norcross -->
+	<Hero id="lord_RH_14_1" spouse="Hero.lord_RH_14_2" faction="Faction.clan_RH_14" text="Ser Hosman Norcross is a knight of House Norcross. He is married to Delena Florent. They have two children; Alester and Renly." />
+	<Hero id="lord_RH_14_2" spouse="Hero.lord_RH_14_1" father="Hero.dead_lord_RH_5_4" faction="Faction.clan_RH_14" text="Delena Florent is the mother of Edric Storm and niece to Lord Alester Florent. She is married to Ser Hosman Norcross and has two children by him, Alester and Renly." />
+	<Hero id="lord_RH_14_3" father="Hero.lord_RH_14_1" mother="Hero.lord_RH_14_2" faction="Faction.clan_RH_14" text="Alester Norcross is the eldest son of Ser Hosman Norcross and Delena Florent. He has a younger brother, Renly, and a bastard half-brother, Edric Storm. He is probably named after his mother's uncle, Lord Alester Florent." />
+	<Hero id="lord_RH_14_4" father="Hero.lord_RH_14_1" mother="Hero.lord_RH_14_2" faction="Faction.clan_RH_14" text="Renly Norcross is the second son of Ser Hosman Norcross and lady Delena Florent. He is the younger brother of Alester Norcross, and a half-brother of Edric Storm." />
+	<!-- House Peake -->
+	<Hero id="lord_RH_15_1" spouse="Hero.lord_RH_15_2" faction="Faction.clan_RH_15" text="Titus Peake is the Lord of Starpike and the head of House Peake. He is married to Lady Margot Lannister." />
+	<Hero id="lord_RH_15_2" spouse="Hero.lord_RH_15_1" faction="Faction.clan_RH_15" text="Lady Margot Lannister is a member of House Lannister, a distant cousin of the main branch. She is married to Lord Titus Peake of Starpike." />
+	<!-- House Serry -->
+	<Hero id="lord_RH_16_1" faction="Faction.clan_RH_16" text="Osbert Serry is the Lord of Southshield and the head of House Serry, from the Shield Islands." />
+	<Hero id="lord_RH_16_2" faction="Faction.clan_RH_16" text="Ser Talbert Serry is a knight of House Serry. He is the son and heir of Lord Osbert Serry of Southshield." />
+	<!-- House Willum -->
+	<Hero id="lord_RH_18_1" faction="Faction.clan_RH_18" text="Lord Willum is the head of House Willum from the Reach. He has at least two sons, Josua and Elyas Willum." />
+	<Hero id="lord_RH_18_2" father="Hero.lord_RH_18_1" faction="Faction.clan_RH_18" text="Josua Willum is the son of Lord Willum. He has at least one brother, Elyas Willum." />
+	<Hero id="lord_RH_18_3" father="Hero.lord_RH_18_1" faction="Faction.clan_RH_18" text="Elyas Willum is the son of Lord Willum. He has at least one brother, Josua" />
+	<!-- Houses of the Riverlands -->
+	<!-- House Goodbrook -->
+	<Hero id="lord_RL_1_1" faction="Faction.clan_RL_1" text="Lymond Goodbrook is the head of House Goodbrook. He is a good friend of Ser Edmure Tully." />
+	<Hero id="lord_RL_1_2" spouse="Hero.lord_RL_1_3" faction="Faction.clan_RL_1" text="Garse Goodbrook is a knight of House Goodbrook. He is the husband of Kyra Frey with whom he has two children, Walder and Jeyne Goodbrook. His relation to Lord Lymond Goodbrook, the head of the House is unknown." />
+	<Hero id="lord_RL_1_3" spouse="Hero.lord_RL_1_2" faction="Faction.clan_RL_1" text="Kyra Frey is a noblewoman of House Frey, the daughter of Ser Jared Frey and Alys Frey. Kyra is married to Ser Garse Goodbrook, with whom she has two children; Walder and Jeyne Goodbrook." />
+	<Hero id="lord_RL_1_4" father="Hero.lord_RL_1_2" mother="Hero.lord_RL_1_3" faction="Faction.clan_RL_1" text="Walder Goodbrook is a member of House Goodbrook. He is the only son of Ser Garse Goodbrook and Kyra Frey." />
+	<Hero id="lord_RL_1_5" father="Hero.lord_RL_1_2" mother="Hero.lord_RL_1_3" faction="Faction.clan_RL_1" text="Jeyne Goodbrook is the only daughter of Ser Garse Goodbrook and Kyra Frey." />
+	<!-- House Haigh -->
+	<Hero id="lord_RL_2_1" spouse="Hero.lord_RL_2_2" faction="Faction.clan_RL_2" text="Leslyn Haigh is a knight of House Haigh and the husband of Perriane Frey. He is the father of Ser Harys, Ser Donnel and Alyn Haigh." />
+	<Hero id="lord_RL_2_2" spouse="Hero.lord_RL_2_1" faction="Faction.clan_RL_2" text="Perriane Frey is the eldest daughter of Lord Walder Frey and Perra Royce. She is married to Ser Leslyn Haigh and they have three sons Harys, Donnel and Alyn Haigh." />
+	<Hero id="lord_RL_2_3" father="Hero.lord_RL_2_1" mother="Hero.lord_RL_2_2" faction="Faction.clan_RL_2" text="Harys Haigh is a knight from House Haigh. He is son of Ser Leslyn Haigh and Perriane Frey." />
+	<Hero id="lord_RL_2_4" father="Hero.lord_RL_2_1" mother="Hero.lord_RL_2_2" faction="Faction.clan_RL_2" text="Donnel Haigh is a knight from House Haigh. The second son of Ser Leslyn Haigh and Perriane Frey, Donnel has two brothers, Ser Harys and Alyn." />
+	<Hero id="lord_RL_2_5" father="Hero.lord_RL_2_1" mother="Hero.lord_RL_2_2" faction="Faction.clan_RL_2" text="Alyn Haigh is the youngest son of Ser Leslyn Haigh and Perriane Frey. He has two older brothers; Ser Harys and Ser Donnel Haigh." />
+	<Hero id="lord_RL_2_6" father="Hero.lord_RL_2_3" faction="Faction.clan_RL_2" text="Walder Haigh is a member of House Haigh, a son of Ser Harys Haigh." />
+	<!-- House Piper -->
+	<Hero id="lord_1_42" spouse="Hero.lord_1_1_4" faction="Faction.clan_RL_4" text="Clement Piper is the Lord of Pinkmaiden and the head of House Piper. He has at least two sons, Ser Marq and Lewys Piper, but no daughter." />
+	<Hero id="lord_1_1_4" spouse="Hero.lord_1_42" faction="Faction.clan_RL_4" text="" />
+	<Hero id="lord_1_422" father="Hero.lord_1_42" mother="Hero.lord_1_1_4" faction="Faction.clan_RL_4" text="Marq Piper is a knight from House Piper. He is the heir of Clement Piper, Lord of Pinkmaiden Castle." />
+	<Hero id="lord_RL_4_2" father="Hero.lord_1_42" mother="Hero.lord_1_1_4" faction="Faction.clan_RL_4" text="Lewys Piper, better known as Lew Piper or Little Lew Piper, is a member of House Piper, a younger son of Lord Clement Piper." />
+	<!-- House Vance of Atranta -->
+	<Hero id="lord_1_22" spouse="Hero.lord_1_1_3" faction="Faction.clan_RL_5" text="Norbert Vance is the Lord of Atranta and the head of House Vance of Atranta." />
+	<Hero id="lord_1_1_3" spouse="Hero.lord_1_22" faction="Faction.clan_RL_5" text="" />
+	<Hero id="lord_RL_5_1" father="Hero.lord_1_22" mother="Hero.lord_1_1_3" faction="Faction.clan_RL_5" text="Ronald Vance, known as Ronald the Bad, is a knight from House Vance of Atranta and the eldest son and heir of Lord Norbert Vance. He has four brothers; Ser Hugo, Ser Ellery, Ser Kirth, and Maester Jon." />
+	<Hero id="lord_RL_5_2" father="Hero.lord_1_22" mother="Hero.lord_1_1_3" faction="Faction.clan_RL_5" text="Ser Hugo Vance is a knight from House Vance of Atranta and the second son of Lord Norbert Vance." />
+	<Hero id="lord_RL_5_3" father="Hero.lord_1_22" mother="Hero.lord_1_1_3" faction="Faction.clan_RL_5" text="Ser Ellery Vance is a knight from House Vance of Atranta and the third son of Lord Norbert Vance. He has four brothers; Ser Ronald, Ser Hugo, Ser Kirth and Maester Jon." />
+	<Hero id="lord_RL_5_4" father="Hero.lord_1_22" mother="Hero.lord_1_1_3" faction="Faction.clan_RL_5" text="Ser Kirth Vance is a knight from House Vance of Atranta and the fourth son of Lord Norbert Vance. He has four brothers; Ser Ronald, Ser Ellery, Ser Hugo and Maester Jon. Kirth is a good friend of Ser Edmure Tully." />
+	<!-- Houses of the Stormlands -->
+	<!-- House Caron -->
+	<Hero id="lord_1_23" faction="Faction.clan_SL_1" text="Bryce Caron is the Lord of Nightsong and the head of House Caron." />
+	<Hero id="lord_SL_1_2" faction="Faction.clan_SL_1" text="Ser Rolland Storm, known as the Bastard of Nightsong, is a knight of House Caron. He is the bastard son of the late Lord Bryen Caron of Nightsong and the half-brother of Lord Bryce Caron" />
+	<!-- House Grandison -->
+	<Hero id="lord_SL_2_1" faction="Faction.clan_SL_2" text="Hugh Grandison, called Greybeard, is the Lord of Grandview and the head of House Grandison. Hugh is an older man whose once-grey beard has become white as snow." />
+	<Hero id="lord_SL_2_2" faction="Faction.clan_SL_2" text="Narbert Grandison is a knight from House Grandison in the service of King Stannis Baratheon. He is one of the queen's men." />
+	<!-- House Hasty -->
+	<Hero id="lord_SL_3_1" faction="Faction.clan_SL_3" text="Ser Bonifer Hasty, also known as Bonifer the Good, is an old landed knight from House Hasty, and is the commander of the Holy Hundred." />
+	<!-- House Horpe -->
+	<Hero id="lord_SL_4_1" faction="Faction.clan_SL_4" text="Ser Richard Horpe is a knight of House Horpe in service to Stannis Baratheon. Ser Richard is lean, dark-haired and hard-eyed. His face is marred by pockmarks and old scars." />
+	<!-- House Morrigen -->
+	<Hero id="lord_SL_5_1" faction="Faction.clan_SL_5" text="Lester Morrigen is the Lord of Crow's Nest and the head of House Morrigen in the stormlands. His heir is his younger brother, Ser Richard Morrigen." />
+	<Hero id="lord_SL_5_2" faction="Faction.clan_SL_5" text="Ser Richard Morrigen is a knight from House Morrigen. He is the brother and heir to Lester Morrigen, Lord of Crow's Nest." />
+	<Hero id="lord_SL_5_3" faction="Faction.clan_SL_5" text=" Ser Guyard Morrigen, also known as Guyard the Green, is a famous knight from House Morrigen in the stormlands He is a younger brother of Lester Morrigen, Lord of Crow's Nest." />
+	<!-- House Swann -->
+	<Hero id="lord_SL_9_1" faction="Faction.clan_SL_9" text="Gulian Swann is Lord of Stonehelm and head of House Swann." />
+	<Hero id="lord_SL_9_2" father="Hero.lord_SL_9_1" faction="Faction.clan_SL_9" text="Ser Donnel Swann is a knight of House Swann and the eldest son and heir of Gulian Swann, Lord of Stonehelm." />
+	<Hero id="lord_1_46" father="Hero.lord_SL_9_1" faction="Faction.clan_SL_9" text="Ser Balon Swann is a knight from House Swann and the second son of Lord Gulian Swann of Stonehelm." />
+	<!-- House Wagstaff -->
+	<Hero id="lord_SL_10_1" faction="Faction.clan_SL_9" text="Ser Humfrey Wagstaff was a knight from House Wagstaff and the castellan of Grandview for House Grandison. When already a man of sixty-five, he was betrothed to a sixteen-year-old Brienne of Tarth. Humfrey had a spotted head and hawk nose." />
+	<!-- Houses of the Vale -->
+	<!-- House Borrell -->
+	<Hero id="ROTlord_36" faction="Faction.ROTclan_11" text="Godric Borrell is the Lord of Sweetsister, Shield of Sisterton, Master of Breakwater Castle, Keeper of the Night Lamp, and the head of House Borrell." />
+	<Hero id="ROTlord_37" father="Hero.ROTlord_36" faction="Faction.ROTclan_11" />
+	<Hero id="ROTlord_38" father="Hero.ROTlord_36"  faction="Faction.ROTclan_11" />
+	<Hero id="ROTlord_39" mother="Hero.ROTlord_37" faction="Faction.ROTclan_11" />
+	<Hero id="ROTlord_ulric" father="Hero.ROTlord_36"  faction="Faction.ROTclan_11" />
+	<!-- House Hardyng -->
+	<Hero id="lord_4_5" faction="Faction.clan_VH_2" text="Harrold Hardyng, often called Harry the Heir and sometimes the Young Falcon, is a gallant, handsome squire, and a ward of Lady Anya Waynwood. He is the cousin and heir presumptive of Lord Robert Arryn, and would ascend to rule of the Vale as Harrold Arryn should Lord Robert die without issue." />
+	<!-- House Lynderly -->
+	<Hero id="lord_VH_3_1" faction="Faction.clan_VH_3" text="Jon Lynderly is Lord of the Snakewood and the head of House Lynderly." />
+	<Hero id="lord_VH_3_2" father="Hero.lord_VH_3_1" faction="Faction.clan_VH_3" text="Terrance Lynderly is a member of House Lynderly and the son and heir of Lord Jon Lynderly." />
+	<!-- House Royce of the Gates of the Moon -->
+	<Hero id="lord_1_41" faction="Faction.clan_VH_4" text="Lord Nestor Royce is the senior member of a cadet branch of House Royce and Keeper of the Gates of the Moon. He is the cousin of Lord Yohn Royce, and is a widower. He has served as High Steward of the Vale for the fourteen years prior to Lord Jon Arryn's death. Nestor is a massive, barrel-chested man, with a thick neck and a bluff face. He is balding, and has a greying beard. According to Lord Robert Arryn, Nestor has a mole." />
+	<Hero id="lord_VH_4_2" father="Hero.lord_1_41" faction="Faction.clan_VH_4" text="Albar Royce is a knight and the son and heir of Lord Nestor Royce, Keeper of the Gates of the Moon. Albar is broad shouldered and homely. He shaves his chin but has fierce black sidewhiskers. He resembles his father, Lord Nestor Royce. A blunt knight with a booming voice, Albar is considered by some to be dull and a clod." />
+	<Hero id="lord_VH_4_3" father="Hero.lord_1_41" faction="Faction.clan_VH_4" text="Myranda Royce, called Randa, is the daughter of Lord Nestor Royce, the High Steward of the Vale. Myranda is short and fleshy and buxom. She has a small mouth, brown eyes, and brown curly hair." />
+	<!-- House Shett of Gull Tower -->
+	<Hero id="lord_VH_6_1" faction="Faction.clan_VH_6" text="Ser Damon Shett is the Knight of Gull Tower and head of House Shett of Gull Tower." />
+	<!-- House Sunderland of Sisterton -->
+	<Hero id="lord_VH_7_1" faction="Faction.clan_VH_7" text="Triston Sunderland is the Lord of the Three Sisters and the head of House Sunderland." />
+	<!-- House Templeton -->
+	<Hero id="lord_VH_8_1" faction="Faction.clan_VH_8" text="Symond Templeton is the Knight of Ninestars and the head of House Templeton. Symond has cold blue eyes, a large beak nose, and a black and pointed beard." />
+	<!-- House Tollett -->
+	<Hero id="lord_VH_9_1" faction="Faction.clan_VH_9" text="Uthor Tollett is Lord of the Grey Glen and head of House Tollett." />
+	<Hero id="lord_VH_9_2" faction="Faction.clan_VH_9" text="Andrew Tollett is a knight from House Tollett. His relation to the head of the House, Lord Uthor Tollett, is unknown." />
+	<!-- House Waynwood -->
+	<Hero id="lord_VH_10_1" faction="Faction.clan_VH_10" text="Anya Waynwood is Lady of Ironoaks and head of House Waynwood. She is widowed and has three sons: Morton, Donnel and Wallace, and an unspecified number of daughters, granddaughters, and grandsons. Her wards include the young Harrold Hardyng, her cousin and the heir-presumptive of the Vale of Arryn, and Cynthea Frey, whose mother was Carolei Waynwood. The slim Anya has greying brown hair, loose skin beneath her chin, and crows-feet around her eyes." />
+	<Hero id="lord_VH_10_2" mother="Hero.lord_VH_10_1" faction="Faction.clan_VH_10" text="Ser Morton Waynwood is a knight of House Waynwood. He is the eldest son and heir of Lady Anya Waynwood, the Lady of Ironoaks." />
+	<Hero id="lord_VH_10_3" father="Hero.lord_VH_10_2" faction="Faction.clan_VH_10" text="Ser Roland Waynwood is a knight of House Waynwood. He is a grandson of Lady Anya Waynwood, Lady of Ironoaks. He appears to be the son of Lady Anya's heir, Ser Morton Waynwood. Roland has a long face and is lantern-jawed. He has stringy brown hair and a pinched nose." />
+	<Hero id="lord_VH_10_4" mother="Hero.lord_VH_10_1" faction="Faction.clan_VH_10" text="Ser Donnel Waynwood is a knight from House Waynwood and the second son of Lady Anya Waynwood, Lady of Ironoaks." />
+	<Hero id="lord_VH_10_5" mother="Hero.lord_VH_10_1" faction="Faction.clan_VH_10" text="Ser Wallace Waynwood is the youngest son of Lady Anya Waynwood. He is long-faced and lantern-jawed, and has stringy brown hair and a pinched nose." />
+	<!-- Houses of the Westerlands -->
+	<!-- House Estren -->
+	<Hero id="lord_WL_2_1" faction="Faction.clan_WL_2" text="Regenard Estren is the Lord of Wyndhall and head of House Estren." />
+	<!-- House Farman -->
+	<Hero id="lord_WL_3_1" faction="Faction.clan_WL_3" text="Sebaston Farman is the Lord of Fair Isle and head of House Farman. His sister, Jeyne, is married to Ser Gareth Clifton." />
+	<!-- House Marbrand -->
+	<Hero id="lord_WL_9_1" faction="Faction.clan_WL_9" text="Damon Marbrand is Lord of Ashemark and head of House Marbrand in the westerlands. He is the father of Ser Addam Marbrand." />
+	<Hero id="lord_4_20" father="Hero.lord_WL_9_1" faction="Faction.clan_WL_9" text="Ser Addam Marbrand is a knight of House Marbrand, and the son and heir of Lord Damon Marbrand of Ashemark. He is one of the chief knights in the service of Tywin Lannister, Lord of Casterly Rock." />
+	<!-- House Moreland -->
+	<Hero id="lord_WL_10_1" faction="Faction.clan_WL_10" text="Lord Robin Moreland is the head of House Moreland in the westerlands." />
+	<!-- House Plumm -->
+	<Hero id="lord_WL_11_1" faction="Faction.clan_WL_11" text="Lord Philip Plumm is the head of House Plumm. He has three sons." />
+	<Hero id="lord_WL_11_2" father="Hero.lord_WL_11_1" faction="Faction.clan_WL_11" text="Ser Dennis Plumm is a knight from House Plumm and is the eldest son and heir of Lord Philip Plumm. He has two younger brothers, Peter and Harwyn." />
+	<Hero id="lord_WL_11_3" father="Hero.lord_WL_11_1" faction="Faction.clan_WL_11" text="Ser Peter Plumm is a knight from House Plumm and is the second son of Lord Philip Plumm. Peter is a big man with a thick neck and a red face." />
+	<Hero id="lord_WL_11_4" father="Hero.lord_WL_11_1" faction="Faction.clan_WL_11" text="Ser Harwyn Plumm, called Hardstone, is a knight from House Plumm. He is the third son of Lord Philip Plumm. Harwyn is an unforgiving man, hard-eyed and taciturn." />
+	<!-- House Prester -->
+	<Hero id="lord_WL_12_1" faction="Faction.clan_WL_12" text="Garrison Prester is the Lord of Feastfires and the head of House Prester. His cousin is Ser Forley Prester." />
+	<Hero id="lord_WL_12_2" faction="Faction.clan_WL_12" text="Ser Forley Prester is a knight of House Prester. He is a cousin to Garrison Prester, Lord of Feastfires. Forley is short and hard, with a pinched nose, a bald pate and grizzled brown beard." />
+	<!-- House Ruttiger -->
+	<Hero id="lord_WL_13_1" faction="Faction.clan_WL_13" text="Ser Raynard Ruttiger is a landed knight and the head of House Ruttiger." />
+	<!-- House Spicer -->
+	<Hero id="lord_WL_14_1" faction="Faction.clan_WL_14" text="Ser Rolph Spicer is a knight from House Spicer and is the castellan of the Crag for House Westerling. He is the brother of Sybell Spicer and grandson of Maggy the Frog. Rolph is a square man, with a broken nose and a grey, close-shaven beard." />
+	<Hero id="lord_WL_14_2" faction="Faction.clan_WL_14" text="Ser Samwell Spicer is a knight of House Spicer. He is the cousin of Sybell and Rolph Spicer." />
+	<!-- House Stackspear -->
+	<Hero id="lord_WL_15_1" faction="Faction.clan_WL_15" text="Lord Selmond Stackspear is the head of House Stackspear." />
+	<Hero id="lord_WL_15_2" father="Hero.lord_WL_15_1" faction="Faction.clan_WL_15" text="Ser Steffon Stackspear is a knight from House Stackspear. He is the eldest son and heir of Lord Selmond Stackspear." />
+	<Hero id="lord_WL_15_3" father="Hero.lord_WL_15_1" faction="Faction.clan_WL_15" text="Alyn Stackspear is a knight from House Stackspear and the second son of Lord Selmond Stackspear." />
+	<!-- House Vikary -->
+	<Hero id="lord_WL_16_1" faction="Faction.clan_WL_16" text="Ser Lymond Vikary is a landed knight and the head of House Vikary." />
+	<!-- House Yew -->
+	<Hero id="lord_WL_17_1" faction="Faction.clan_WL_17" text="Manfryd Yew is a landed knight and the head of House Yew." />
+	<!-- New heroes added
+  <Hero id="lord_7_5" spouse="Hero.lord_7_5_1" faction="Faction.clan_battania_8" />
+  <Hero id="lord_7_5_1" spouse="Hero.lord_7_5" faction="Faction.clan_battania_8" />
+  <Hero id="lord_7_5_2" father="Hero.lord_7_5" mother="Hero.lord_7_5_1" faction="Faction.clan_battania_8" />
+  <Hero id="lord_7_5_3" father="Hero.lord_7_5" mother="Hero.lord_7_5_1" faction="Faction.clan_battania_8" />
+  <Hero id="lord_7_5_4" father="Hero.lord_7_5" mother="Hero.lord_7_5_1" faction="Faction.clan_battania_8" />
+  <Hero id="lord_7_6" spouse="Hero.lord_7_6_1" faction="Faction.clan_khuzait_9" />
+  <Hero id="lord_7_6_1" spouse="Hero.lord_7_6" faction="Faction.clan_khuzait_9" />
+  <Hero id="lord_7_6_2" father="Hero.lord_7_6" mother="Hero.lord_7_6_1" faction="Faction.clan_khuzait_9" />
+  <Hero id="lord_7_6_3" father="Hero.lord_7_6" mother="Hero.lord_7_6_1" faction="Faction.clan_khuzait_9" />
+  <Hero id="lord_7_7" spouse="Hero.lord_7_7_1" faction="Faction.clan_sturgia_9" />
+  <Hero id="lord_7_7_1" spouse="Hero.lord_7_7" faction="Faction.clan_sturgia_9" />
+  <Hero id="lord_7_7_2" father="Hero.lord_7_7" mother="Hero.lord_7_7_1" faction="Faction.clan_sturgia_9" />
+  <Hero id="lord_7_7_3" father="Hero.lord_7_7" mother="Hero.lord_7_7_1" faction="Faction.clan_sturgia_9" />
+  <Hero id="lord_7_7_4" father="Hero.lord_7_7" mother="Hero.lord_7_7_1" faction="Faction.clan_sturgia_9" />
+
+  <Hero id="lord_7_8_1" spouse="Hero.lord_7_8" faction="Faction.clan_vlandia_11" />
+  <Hero id="lord_7_8_2" father="Hero.lord_7_8" mother="Hero.lord_7_8_1" faction="Faction.clan_vlandia_11" />
+  <Hero id="lord_7_8_3" father="Hero.lord_7_8" mother="Hero.lord_7_8_1" faction="Faction.clan_vlandia_11" />
+  -->
+</Heroes>

@@ -1,0 +1,5557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="dead_lord_RH_5_4"
+			  name="Ryam Florent"
+			  age="36"
+			  voice="curt"
+			  default_group="Cavalry"
+			  is_hero="true"
+			  culture="Culture.reach"
+			  occupation="Lord"
+			  face_mesh_cache="true">
+		<face>
+			<!--face_key value="0019212180bc140143fbbb8747b89c66a9446a946c85e738a778e765678ca9b4000b883475b5c64c0000037f0000000f00000037049140010000000000003000" /-->
+			<BodyProperties version="4"
+							key="000AA40AC088304687585674B57A82875A539779887B66B68A768CA7CE66567104987646099DA4CD000000000000000000000000000000000000000047244102" />
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="5" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="rea_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+ <!-- Vincantios, somewhat dull clan leader and his much sharper sister -->
+  <NPCCharacter id="lord_701_1"
+                name="{=DAC00001}Delonne Allyrion"
+                age="53"
+				is_female="true"
+                voice="earnest"
+                default_group="Cavalry"
+                is_hero="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+    <face>
+      <!-- Placeholder face value -->
+      <BodyProperties version="4"
+                      weight="0.4248"
+                      build="0.3414"
+                      key="001EB80FC058200D8B93A468C75B8872DA66AD6B3AB974AB4748277B836B75C504A566460AB6A86B00000000000000000000000000000000000000003F441043" />
+    </face>
+		<skills></skills>
+		<Traits>
+			<Trait id="CavalryFightingSkills"
+				 value="7" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				 value="5" />
+			<Trait id="Honor"
+				 value="1" />
+			<Trait id="Valor"
+				 value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="ase_bat_template_heavy" />
+			<EquipmentSet id="ase_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_701_2"
+                name="{=DAC00002}Ryon Allyrion"
+                age="39"
+                voice="ironic"
+                default_group="Cavalry"
+                is_hero="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.7486"
+							build="0.7407"
+							key="001B5408C0CC118FD616668E87A6B8BA837C6A4BC787BC85D54A9789B6478C9C039BB635097A9C850000000000000000000000000000000000000000353C2082" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Generosity"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="ase_bat_template_heavy" />
+			<EquipmentSet id="ase_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_701_3"
+                name="{=DAC00003}Daemon Sand"
+                age="24"
+                voice="curt"
+                default_group="Cavalry"
+                is_hero="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.7762"
+							build="0.5185"
+							key="00131005400002C53876641B53544A305165855275113609DCB177278B84966701886613087714780000000000000000000000000000000000000000111C3002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Generosity"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="ase_bat_template_heavy" />
+			<EquipmentSet id="ase_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	  <NPCCharacter id="lord_701_4"
+                name="{=DAC00001}Ynys Yronwood"
+                age="19"
+				is_female="true"
+                voice="earnest"
+                default_group="Cavalry"
+                is_hero="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+    <face>
+      <!-- Placeholder face value -->
+      <BodyProperties version="4"
+                      weight="0.4683"
+                      build="0.8469"
+                      key="00203C008088000B464754766B697C7CC7CC9BA8AE846976A87846CBC83367BB0A9D76A20A9B46927700000000000000000000000000002B000000004B3C30C3" />
+    </face>
+		<skills></skills>
+		<Traits>
+			<Trait id="CavalryFightingSkills"
+				 value="7" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				 value="5" />
+			<Trait id="Honor"
+				 value="1" />
+			<Trait id="Valor"
+				 value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="ase_bat_template_heavy" />
+			<EquipmentSet id="ase_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="lord_702_1"
+                name="{=DAC00021}Deziel Dalt"
+                age="26"
+                voice="curt"
+                default_group="Cavalry"
+                is_hero="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.3586"
+							build="0.3582"
+							key="001BA406C0A022813A52B8C56C78DE344BAE88916786574BD95C2C7CB7E3B92201D556130DE6978C000000000000000000000000000000000000000013AC3102" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Generosity"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="ase_bat_template_heavy" />
+			<EquipmentSet id="ase_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_702_2"
+                name="{=DAC00021}Andrey Dalt"
+                age="23"
+                voice="earnest"
+                default_group="Cavalry"
+                is_hero="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.473"
+							build="0.8057"
+							key="00269C0FC070209756999D49A751574592778568758B8BAA7D7AB2A388E6673501AC76130A5692C300000000000000000000000000000000000000002F443002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Generosity"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="ase_bat_template_heavy" />
+			<EquipmentSet id="ase_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_703_1"
+			name="{=DAC00021}Tremond Gargalen"
+			age="23"
+			voice="earnest"
+			default_group="Cavalry"
+			is_hero="true"
+			culture="Culture.aserai"
+			occupation="Lord"
+			face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.6769"
+							build="0.5484"
+							key="0015B40FC0FC05975BE448C6A554577B47A95B567B386B3A9756659778E58E6A01B8A0140B9672ED77000000000000000000000000000009000000003D604042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Generosity"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="ase_bat_template_heavy" />
+			<EquipmentSet id="ase_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_704_1"
+			   name="{=ROT00041}Jeyne Fowler"
+			   age="24"
+			   voice="curt"
+			   is_female="true"
+			   default_group="Cavalry"
+			   is_hero="true"
+			   culture="Culture.aserai"
+			   occupation="Lord"
+			   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4677"
+							build="0.0077"
+							key="0013B40080CC300D63851858724B938A4B7A5227DD4A5675CC8B699A79B71AB601D076130D6D589200000000000000000000000000000000000000002DA40103" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="3" />
+			<Trait id="Honor"
+				   value="-1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="ase_bat_template_lady" />
+			<EquipmentSet id="ase_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_704_2"
+			   name="{=ROT00042}Jennelyn Fowler"
+			  			   age="24"
+			   voice="curt"
+			   is_female="true"
+			   default_group="Cavalry"
+			   is_hero="true"
+			   culture="Culture.aserai"
+			   occupation="Lord"
+			   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4677"
+							build="0.0077"
+							key="0013B40080CC300D63851858724B938A4B7A5227DD4A5675CC8B699A79B71AB601D076130D6D589200000000000000000000000000000000000000002DA40103" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="3" />
+			<Trait id="Honor"
+				   value="-1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="ase_bat_template_lady" />
+			<EquipmentSet id="ase_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_705_1"
+                name="{=DAC00051}Symon Santagar"
+                age="24"
+                voice="curt"
+                default_group="Cavalry"
+                is_hero="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.7762"
+							build="0.5185"
+							key="00131005400002C53876641B53544A305165855275113609DCB177278B84966701886613087714780000000000000000000000000000000000000000111C3002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Generosity"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="ase_bat_template_heavy" />
+			<EquipmentSet id="ase_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_1_1"
+                name="{=ROTbartimoschyttering}Bartimos Chyttering"
+                age="42"
+                voice="ironic"
+                is_hero="true"
+                culture="Culture.dragonstone"
+                default_group="Cavalry"
+                occupation="Lord"
+                face_mesh_cache="true">
+		<face>
+			<!--face_key value="000bd3058000100d785aa72917c606a54d469cdc9a3683a59a15af927269e22c0001647bc65d7806000000000000000000000000000000000000000000001183" /-->
+			<BodyProperties version="4"
+							weight="0.5795"
+							build="0.3714"
+							key="00084400804411887636D42489435B87489D6534988B336A742A7881437C594902A696240A775876000000000000000000000000000000000000000053440082" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="1" />
+			<Trait id="Honor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="dra_bat_template_medium" />
+			<EquipmentSet id="dra_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_1_2"
+			name="{=ROTlucoschyttering}Lucos Chyttering"
+			age="14"
+			voice="earnest"
+			is_hero="true"
+			culture="Culture.dragonstone"
+			default_group="Cavalry"
+			occupation="Lord"
+			face_mesh_cache="true">
+		<face>
+			<!--face_key value="000bd3058000100d785aa72917c606a54d469cdc9a3683a59a15af927269e22c0001647bc65d7806000000000000000000000000000000000000000000001183" /-->
+			<BodyProperties version="4"
+							weight="0.7"
+							build="0.7"
+							key="00084400804411887636D42489435B87489D6534988B336A742A7881437C594902A696240A775876000000000000000000000000000000000000000053440082" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="1" />
+			<Trait id="Honor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="dra_bat_template_medium" />
+			<EquipmentSet id="dra_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_2_1"
+                name="{=ROTgilbertfarring}Gilbert Farring"
+                age="33"
+                voice="curt"
+                is_hero="true"
+                culture="Culture.dragonstone"
+                default_group="Cavalry"
+                occupation="Lord"
+                face_mesh_cache="true">
+		<face>
+			<!--face_key value="000bd3058000100d785aa72917c606a54d469cdc9a3683a59a15af927269e22c0001647bc65d7806000000000000000000000000000000000000000000001183" /-->
+			<BodyProperties version="4"
+							weight="0.5"
+							build="0.5"
+							key="0010500D80443342999C4A97C963B34437B788BBC2367343C36864C669A869A702F776240F968B59000000000000000000000000000000000000000005FC70C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="1" />
+			<Trait id="Honor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="dra_bat_template_medium" />
+			<EquipmentSet id="dra_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_2_2"
+			name="{=ROTbryenfarring}Bryen Farring"
+			age="16"
+			voice="earnest"
+			is_hero="true"
+			culture="Culture.dragonstone"
+			default_group="Cavalry"
+			occupation="Lord"
+			face_mesh_cache="true">
+		<face>
+			<!--face_key value="000bd3058000100d785aa72917c606a54d469cdc9a3683a59a15af927269e22c0001647bc65d7806000000000000000000000000000000000000000000001183" /-->
+			<BodyProperties version="4"
+							weight="0.6056"
+							build="0.6666"
+							key="00051C0F0000001366677ED61B16BA946D84B735C6479637E9458895EAB92EA6039A963509BB52AA00000000000000000000000000000000000000005F340042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="1" />
+			<Trait id="Honor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="dra_bat_template_medium" />
+			<EquipmentSet id="dra_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_2_3"
+                name="{=ROTgodfreyfarring}Godfrey Farring"
+                age="29"
+                voice="curt"
+                is_hero="true"
+                culture="Culture.dragonstone"
+                default_group="Cavalry"
+                occupation="Lord"
+                face_mesh_cache="true">
+		<face>
+			<!--face_key value="000bd3058000100d785aa72917c606a54d469cdc9a3683a59a15af927269e22c0001647bc65d7806000000000000000000000000000000000000000000001183" /-->
+			<BodyProperties version="4"
+							weight="0.5"
+							build="0.5"
+							key="0010500D80443003A39C4A97C963B3447A56C8C85867844EA48B9C7583B956A302F776240F5A6385000000000000000000000000000000000000000005FC7142" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="1" />
+			<Trait id="Honor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="dra_bat_template_medium" />
+			<EquipmentSet id="dra_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="lord_CL_4_1"
+		name="{=janosslynt}Janos Slynt"
+		age="39"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.8179"
+							build="0.9043"
+							key="000D3C0F000012C0887D9864958B674EB97BBE99E7A4E597419389D139B86842065EC667056C6D8500000000000000000000000000000000000000004CAC2002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="7" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_4_2"
+	name="{=morrosslynt}Morros Slynt"
+	age="20"
+	voice="curt"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.vlandia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.2308"
+							build="0.0526"
+							key="0000480E40FC3002377A466487A7CC3E499C8D4C5AE787496D53BD8785527B880071360307A72A5B00000000000000000000000000000000000000002CF41102" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="7" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_4_3"
+name="{=jothosslynt}Jothos Slynt"
+age="10"
+voice="curt"
+default_group="Cavalry"
+is_hero="true"
+culture="Culture.vlandia"
+occupation="Lord"
+face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.1113"
+							build="0.3789"
+							key="0002900F008800136C557AB547566D0F3C3AA885776546AD97C636715771B57701462611033D2787000000000000000000000000000000000000000010844042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="7" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_4_4"
+name="{=danosslynt}Danos Slynt"
+age="6"
+voice="curt"
+default_group="Cavalry"
+is_hero="true"
+culture="Culture.vlandia"
+occupation="Lord"
+face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.1113"
+							build="0.3789"
+							key="0002900F008800136C557AB547566D0F3C3AA885776546AD97C636715771B57701462611033D2787000000000000000000000000000000000000000010844042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="7" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_5_1"
+			   name="{=tandastokeworth}Tanda Stokeworth"
+			   age="68"
+			   voice="earnest"
+			   is_female="true"
+			   default_group="Cavalry"
+			   is_hero="true"
+			   culture="Culture.vlandia"
+			   occupation="Lord"
+			   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4774"
+							build="0.3956"
+							key="000A5C08C0B4300E54965D77A5D75B7AB6758E06484A776A88858885A8C4884A0A7676AB07744493000000000000000000000000000000000000000014E43083" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="3" />
+			<Trait id="Mercy"
+				   value="1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_lady" />
+			<EquipmentSet id="vla_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_5_1"
+		   name="{=tandastokeworth}Tanda Stokeworth"
+		   age="68"
+		   voice="earnest"
+		   is_female="true"
+		   default_group="Cavalry"
+		   is_hero="true"
+		   culture="Culture.vlandia"
+		   occupation="Lord"
+		   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4774"
+							build="0.3956"
+							key="000A5C08C0B4300E54965D77A5D75B7AB6758E06484A776A88858885A8C4884A0A7676AB07744493000000000000000000000000000000000000000014E43083" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="3" />
+			<Trait id="Mercy"
+				   value="1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_lady" />
+			<EquipmentSet id="vla_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_5_2"
+		   name="{=falysestokeworth}Falyse Stokeworth"
+		   age="35"
+		   voice="earnest"
+		   is_female="true"
+		   default_group="Cavalry"
+		   is_hero="true"
+		   culture="Culture.vlandia"
+		   occupation="Lord"
+		   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.0108"
+							build="0.0474"
+							key="0002AC0C40702002AA85887A75D8981AB753D67799C5A847C36628C952A9B74502710624077D937B000000000000000000000000000000000000000024EC40C3" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="3" />
+			<Trait id="Mercy"
+				   value="1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_lady" />
+			<EquipmentSet id="vla_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_5_3"
+		   name="{=lollysstokeworth}Lollys Stokeworth"
+		   age="34"
+		   voice="softspoken"
+		   is_female="true"
+		   default_group="Cavalry"
+		   is_hero="true"
+		   culture="Culture.vlandia"
+		   occupation="Lord"
+		   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.9987"
+							build="0.9676"
+							key="0002DC0F00B420105A8675A89863898867675AB7D7B748088A84A8934DA89D4A026FF62406A6436B000000000000000000000000000000000000000026D40083" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="3" />
+			<Trait id="Mercy"
+				   value="1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_lady" />
+			<EquipmentSet id="vla_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_5_4"
+name="{=tyriontanner}Tyrion Tanner"
+age="1"
+voice="curt"
+default_group="Cavalry"
+is_hero="true"
+culture="Culture.vlandia"
+occupation="Lord"
+face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.349"
+							build="0.3502"
+							key="0005800F00700019A8449579B7B396964885CBD2771485B5D7984943C16671C70065500003717AC500000000000000000000000000000000FFFFFFFFC0C0003F" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="7" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_6_1"
+                name="{=guncersunglass}Guncer Sunglass"
+                age="38"
+                voice="ironic"
+                is_hero="true"
+                culture="Culture.dragonstone"
+                default_group="Cavalry"
+                occupation="Lord"
+                face_mesh_cache="true">
+		<face>
+			<!--face_key value="000bd3058000100d785aa72917c606a54d469cdc9a3683a59a15af927269e22c0001647bc65d7806000000000000000000000000000000000000000000001183" /-->
+			<BodyProperties version="4"
+							weight="0.0809"
+							build="0.3708"
+							key="00021C0F001417C345B3ACB5D7C25C86B3C4C798A817675C38C8AA97E4A4C47A0386163508597ABA00000000000000000000000000000000000000001AFC1082" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="1" />
+			<Trait id="Honor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="dra_bat_template_medium" />
+			<EquipmentSet id="dra_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_6_2"
+			name="{=osneysunglass}Osney Sunglass"
+			age="28"
+			voice="ironic"
+			is_hero="true"
+			culture="Culture.dragonstone"
+			default_group="Cavalry"
+			occupation="Lord"
+			face_mesh_cache="true">
+		<face>
+			<!--face_key value="000bd3058000100d785aa72917c606a54d469cdc9a3683a59a15af927269e22c0001647bc65d7806000000000000000000000000000000000000000000001183" /-->
+			<BodyProperties version="4"
+							weight="0.5"
+							build="0.5"
+							key="000A000D000014460593117A2669003F50DE8074F9788F6A4907FC048AC00866009776030997D7A100000000000000000000000000000000000000003F2C1002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="1" />
+			<Trait id="Honor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="dra_bat_template_medium" />
+			<EquipmentSet id="dra_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_CL_6_3"
+			name="{=tristontally}Triston of Tally Hill"
+			age="24"
+			voice="Curt"
+			is_hero="true"
+			culture="Culture.dragonstone"
+			default_group="Cavalry"
+			occupation="Lord"
+			face_mesh_cache="true">
+		<face>
+			<!--face_key value="000bd3058000100d785aa72917c606a54d469cdc9a3683a59a15af927269e22c0001647bc65d7806000000000000000000000000000000000000000000001183" /-->
+			<BodyProperties version="4"
+							weight="0.9124"
+							build="0.4986"
+							key="0015540140581001554E7797B463517A976AAA49B9859564987438B787847D8601F7E6130FBBA558000000000000000000000000000000000000000045EC10C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="1" />
+			<Trait id="Honor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="dra_bat_template_medium" />
+			<EquipmentSet id="dra_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_II_1_1"
+                name="{=lucascodd}Lucas Codd"
+                default_group="Cavalry"
+                age="26"
+                voice="ironic"
+                is_hero="true"
+                culture="Culture.sturgia"
+                occupation="Lord"
+                face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5"
+							build="0.5"
+							key="000A640D970023420776678E53648888588CA63378AA7F409AA68D788BC3324602977624098789840000000000000000000000000000397700000000213C3003" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HopliteFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_harlow" />
+			<EquipmentSet id="stu_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_II_1_2"
+			name="{=eldredcodd}Eldred Codd"
+			default_group="Cavalry"
+			age="24"
+			voice="ironic"
+			is_hero="true"
+			culture="Culture.sturgia"
+			occupation="Lord"
+			face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4369"
+							build="0.4255"
+							key="0000740D11000652AB1B8D9932E19752553769B48A748E4895B36BA37488955D01B676140B78A77C7F641F605F20F0400000000000001718000000006F644042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HopliteFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_harlow" />
+			<EquipmentSet id="stu_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_II_1_3"
+		name="{=tomcodd}Tom Codd"
+		default_group="Cavalry"
+		age="22"
+		voice="curt"
+		is_hero="true"
+		culture="Culture.sturgia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5864"
+							build="0.2667"
+							key="0005900FC0B4180A2C87A693445947A547987DB5679457A6AD986C97B646BD8B0184961308B3A7387F641F605F20F040000000000000171800000000070C10C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HopliteFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_harlow" />
+			<EquipmentSet id="stu_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_II_1_4"
+	name="{=dagoncodd}Dagon Codd"
+	default_group="Cavalry"
+	age="33"
+	voice="curt"
+	is_hero="true"
+	culture="Culture.sturgia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4699"
+							build="0.9041"
+							key="0002AC0F0088094566892A28B9C9746A7B6B57988C23DA34CAA43368C7715955038E76350835ACA37F641F605F20F040000000000000171800000000630C40C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HopliteFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_harlow" />
+			<EquipmentSet id="stu_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_II_2_1"
+	name="{=harrasharlaw}Harras Harlaw"
+	default_group="Cavalry"
+	age="26"
+	voice="curt"
+	is_hero="true"
+	culture="Culture.sturgia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.2501"
+							build="0.5567"
+							key="0005640F00B42003775739D6BA547B73B9657A3A8BA35CD61B4C574BB9A3753900D846030D4833887F641F605F20F0400000000000001718000000001DB47142" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HopliteFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_harlow" />
+			<EquipmentSet id="stu_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_II_3_1"
+	name="{=sigfyrdharlaw}Sigfyrd Harlaw"
+	default_group="Cavalry"
+	age="33"
+	voice="curt"
+	is_hero="true"
+	culture="Culture.sturgia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.3371"
+							build="0.4014"
+							key="000A6C0F00002947B6554B7489653538D871DB89B7DA8589C8985952977A927D0466564606B8CB5A7F641F605F20F0400000000000001718000000002ABC9082" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HopliteFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_harlow" />
+			<EquipmentSet id="stu_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_II_4_1"
+	name="{=boremundharlaw}Boremund Harlaw"
+	default_group="Cavalry"
+	age="33"
+	voice="curt"
+	is_hero="true"
+	culture="Culture.sturgia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4723"
+							build="0.7403"
+							key="0005880F00B42681B85486785284B7836569AB2B47CD36B1DCBE669BB685378905BB76570B5C69937F641F605F20F04000000000000017180000000027746102" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HopliteFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_harlow" />
+			<EquipmentSet id="stu_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_II_5_1"
+	name="{=hothoharlaw}Hotho Harlaw"
+	default_group="Cavalry"
+	age="45"
+	voice="curt"
+	is_hero="true"
+	culture="Culture.sturgia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4723"
+							build="0.6609"
+							key="0005EC0FC0FC254068689A96C488A5A766B9969384C68D8C263C947B3449895B07AA76790A5AC9967F641F605F20F0400000000000001718000000005D540142" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HopliteFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_harlow" />
+			<EquipmentSet id="stu_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_II_6_1"
+	name="{=kenning}Kenning"
+	default_group="Cavalry"
+	age="45"
+	voice="curt"
+	is_hero="true"
+	culture="Culture.sturgia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.2"
+							build="0.2419"
+							key="0002B40E40E4399056A17A56B7B37B28F59736A6A582899776372A86CBCAB52706C436680C77BC8A1000000000000000000000000000004E00000000279C6142" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HopliteFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_harlow" />
+			<EquipmentSet id="stu_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_II_6_2"
+	name="{=ralfkenning}Ralf Kenning"
+	default_group="Cavalry"
+	age="26"
+	voice="curt"
+	is_hero="true"
+	culture="Culture.sturgia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5663"
+							build="0.7321"
+							key="000A700FCF8825806DAE59D9997974969947D9998C3554BF27CAD86369C8758C045B864605CA56581000000000000000000000000000004E0000000026B45102" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HopliteFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_harlow" />
+			<EquipmentSet id="stu_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_II_6_3"
+	name="{=qarlkenning}Qarl Kenning"
+	default_group="Cavalry"
+	age="24"
+	voice="curt"
+	is_hero="true"
+	culture="Culture.sturgia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5024"
+							build="0.2262"
+							key="00053C0F00E433C894D48A681774665187ABA34998D49289C5949D389277B97C0193861309B778361000000000000000000000000000004E000000002D3C0042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HopliteFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_harlow" />
+			<EquipmentSet id="stu_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	<NPCCharacter id="lord_II_11_1"
+	name="{=stonetree}Stonetree"
+	default_group="Cavalry"
+	age="44"
+	voice="curt"
+	is_hero="true"
+	culture="Culture.sturgia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.3905"
+							build="0.5852"
+							key="00185802800027577D6A7BC32C764886A3DD56353764B787C6D99DCD878674B301396613033542C41000000000000000000000000000004E00000000425C4042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HopliteFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_harlow" />
+			<EquipmentSet id="stu_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_II_11_2"
+	name="{=sigfrystonetree}Sigfry Stonetree"
+	default_group="Cavalry"
+	age="27"
+	voice="curt"
+	is_hero="true"
+	culture="Culture.sturgia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.3905"
+							build="0.5852"
+							key="00185802800027577D6A7BC32C764886A3DD56353764B787C6D99DCD878674B301396613033542C41000000000000000000000000000004E00000000425C4042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HopliteFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_harlow" />
+			<EquipmentSet id="stu_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	<NPCCharacter id="lord_II_14_1"
+	name="{=waldon}Walond Wynch"
+	default_group="Cavalry"
+	age="31"
+	voice="curt"
+	is_hero="true"
+	culture="Culture.sturgia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.1721"
+							build="0.6768"
+							key="000A940FC044028E833B9544D558C877BA758A784E71D7A85B4773CA36A355AC028A3624080876C61000000000000000000000000000004E00000000431440C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HopliteFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_harlow" />
+			<EquipmentSet id="stu_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<!--The North-->
+
+	<NPCCharacter id="lord_NH_1_1"
+			   name="{=torrenliddle}Torren Liddle"
+			   age="51"
+			   voice="ironic"
+			   default_group="Cavalry"
+			   is_hero="true"
+			   culture="Culture.battania"
+			   occupation="Lord"
+			   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4132"
+							build="0.4472"
+							key="0002C00E405801C3D17A68452DD5189A7A9582D9454369B9346C9D79AC4AE5D704C766460C6329880000000000000000000000000000000000000000558C20C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Calculating"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="bat_bat_template_heavy" />
+			<EquipmentSet id="bat_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_NH_1_2"
+		   name="{=morganliddle}Morgan Liddle"
+		   age="27"
+		   voice="ironic"
+		   default_group="Cavalry"
+		   is_hero="true"
+		   culture="Culture.battania"
+		   occupation="Lord"
+		   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.6818"
+							build="0.8381"
+							key="0002740F00583956999626767763B83641C78AAA177496BC6A5AACA75C7B69C300CDA6030C7E7B72000000000000000000000000000000000000000041A46142" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Calculating"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="bat_bat_template_heavy" />
+			<EquipmentSet id="bat_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_NH_1_3"
+		   name="{=rickardliddle}Rickard Liddle"
+		   age="24"
+		   voice="ironic"
+		   default_group="Cavalry"
+		   is_hero="true"
+		   culture="Culture.battania"
+		   occupation="Lord"
+		   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.2912"
+							build="0.5148"
+							key="0002400FD458305BA555E32B2B68875B78EAA542978E779B54B7656A5838ADB200A846030A58B65400000000000000000000000000000000000000000F4C20C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Calculating"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="bat_bat_template_heavy" />
+			<EquipmentSet id="bat_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_NH_2_1"
+	   name="{=hugowull}Hugo Wull"
+	   age="33"
+	   voice="ironic"
+	   default_group="Cavalry"
+	   is_hero="true"
+	   culture="Culture.battania"
+	   occupation="Lord"
+	   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4541"
+							build="0.197"
+							key="001B940FC0CC35D4866A98883758A5323EB3D9874A4A7686986AA5D9A9C48A6904A376460A3586770000000000000000000000000000000000000000155C8082" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="6" />
+			<Trait id="Politician"
+				   value="5" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Calculating"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="bat_bat_template_heavy" />
+			<EquipmentSet id="bat_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!--THE REACH-->
+
+	<NPCCharacter id="lord_RH_1_1"
+				name="{=arthurambrose}Arthur Ambrose"
+				age="27"
+				voice="curt"
+				default_group="Cavalry"
+				is_hero="true"
+				culture="Culture.reach"
+				occupation="Lord"
+				face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5"
+							build="0.3103"
+							key="0002640980CC221BDC8B52DB8AA87EDB7AC277536A3A99A176471A567499871300A570030A5E6843000000000000000000000000000000000000000041500042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="8" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="rea_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RH_1_2"
+				name="{=alysanne}Alysanne Hightower"
+				age="24"
+				voice="earnest"
+				default_group="Cavalry"
+				is_hero="true"
+				is_female="true"
+				culture="Culture.reach"
+				occupation="Lord"
+				face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.2089"
+							build="0.5597"
+							key="0013880B80581010197A4A9696777DCA8B0A5DE744877842D6828CC88D48898C009836030977565A0000000000000000000000000000000000000000312420C3" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="6" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rea_bat_template_lady" />
+			<EquipmentSet id="vla_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RH_1_3"
+			name="{=alynambrose}Alyn Ambrose"
+			age="7"
+			voice="softspoken"
+			default_group="Cavalry"
+			is_hero="true"
+			culture="Culture.reach"
+			occupation="Lord"
+			face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5679"
+							build="0.531"
+							key="00086808C000101A846389A572728833E4CBB98880883C38BEC431D6DCD2618E095896920775A96754FFFF1633FFA799000000000000160CFFFFFFFFCAA4903F" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="8" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="rea_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RH_1_4"
+		name="{=edmundambrose}Edmund Ambrose"
+		age="25"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.36"
+							build="0.7902"
+							key="000A8004D8583694228837A696E8357B64B97BB91443BD6D4B674B4966CD815804AC57460A7C7CE5000000000000000000000000000000000000000039500082" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="8" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="rea_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RH_2_1"
+	name="{=moribaldchester}Moribald Chester"
+	age="25"
+	voice="curt"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.reach"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.6123"
+							build="0.7902"
+							key="00264401402C1702BA3AA1D7433895C49477C948999597127BD955A4396B469D007C9703077A23B800000000000000000000000000000000000000002EE07042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="8" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="rea_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RH_3_1"
+	name="{=tommencostayne}Tommen Costayne"
+	age="29"
+	voice="curt"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.reach"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.7586"
+							build="0.5958"
+							key="000A880B8FE429828A5A97A578AA7C766C765667D7891929AC3B3678479ECA170169B7130627A896000000000000000000000000000000000000000034D07042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="8" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="rea_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RH_4_1"
+	name="{=vortimercrane}Vortimer Crane"
+	age="28"
+	voice="curt"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.reach"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.3887"
+							build="0.3324"
+							key="000A740780B423C64398D733784B3984A2763A67233AB6C6A6A6D3753A3B54940275672407847843000000000000000000000000000000000000000050E05002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="8" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="rea_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RH_4_2"
+	name="{=parmencrane}Parmen Crane"
+	age="26"
+	voice="curt"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.reach"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.6923"
+							build="0.3324"
+							key="000D60061A140243A8579B38BD6899AB7ADA786D6DB66744487652D2A437A4740175A714076653B9000000000000000000000000000000000000000050F05002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="8" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="rea_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RH_4_3"
+	name="{=rycherdcrane}Rycherd Crane"
+	age="31"
+	voice="ironic"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.reach"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.6923"
+							build="0.3324"
+							key="000AB80600CC10D624444D88B75D78A8D4C444D86B64978A337557D6578369BB0355A73505856B7D00000000000000000000000000000000000000005CA06002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="8" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="rea_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RH_4_4"
+				name="{=meredythcrane}Meredyth Crane"
+				age="15"
+				voice="earnest"
+				default_group="Cavalry"
+				is_hero="true"
+				is_female="true"
+				culture="Culture.reach"
+				occupation="Lord"
+				face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4161"
+							build="0.6803"
+							key="000A9404C0CC00073C839C84238A72776071468787865289A85B4998D48A97A70D3A66D208C67523000000000000000000000000000000000000000044644003" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="6" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rea_bat_template_lady" />
+			<EquipmentSet id="vla_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RH_5_1"
+	name="{=alesterflorent}Alester Florent"
+	age="40"
+	voice="ironic"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.reach"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5"
+							build="0.5"
+							key="00029403400013422876678E5363C6F4588C5363989A9F1199668D788BC3324506C776680C67FB73000000000000000000000000000019A300000000238C2042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="8" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="rea_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RH_5_2"
+				name="{=melaracrane}Melara Crane"
+				age="40"
+				voice="earnest"
+				default_group="Cavalry"
+				is_hero="true"
+				is_female="true"
+				culture="Culture.reach"
+				occupation="Lord"
+				face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.2462"
+							build="0.3598"
+							key="000D300000FC00077BBC54A7B4C88CA77549743B38489799B5AA68A46964989501454614040973E900000000000000000000000000000000000000002E8C2103" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="6" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rea_bat_template_lady" />
+			<EquipmentSet id="vla_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RH_5_3"
+	name="{=alekyneflorent}Alekyne Florent"
+	age="20"
+	voice="ironic"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.reach"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.6955"
+							build="0.4331"
+							key="0002780D80E423C5AA674567D685A287848766C7777A77669D78817452B6794C02C6A6240C8AB666000000000000000000000000000019A300000000418C2082" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="8" />
+			<Trait id="Commander"
+				   value="8" />
+			<Trait id="Politician"
+				   value="6" />
+			<Trait id="Manager"
+				   value="7" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="rea_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+		<NPCCharacter id="lord_RH_5_5"
+		name="{=imry}Imry Florent"
+		age="25"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.1471"
+								build="0.4405"
+								key="0005B40F00A0090E7B8699282AA768C1978B396877798A715A9A584EA7E98A7903B720350B95A764000000000000000000000000000000000000000039701002" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_5_6"
+		name="{=errenflorent}Erren Florent"
+		age="21"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.1471"
+								build="0.5387"
+								key="0005400F1414261289A6B548A877AAA57AE68B86667A5E6B24567734C734A6D201A820130A24C491000000000000000000000000000000000000000067501002" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_5_7"
+		name="{=colinflorent}Colin Florent"
+		age="36"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.6955"
+								build="0.4331"
+								key="0002780D80E42345AA674567D685A287848766C7777A77669D78817452B6794C02C6A6240C8AB666000000000000000000000000000019A300000000418C2082" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_5_8"
+		name="{=merrellflorent}Merrell Florent"
+		age="12"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.5115"
+								build="0.3733"
+								key="0013800E4058184F97B9A246B93877626548A38D8A788968377AA9968668486D0196861105466C4B000000000000000000000000000019A30000000045344002" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_6_1"
+		name="{=tantonfossoway}Tanton Fossoway"
+		age="26 "
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.8152"
+								build="0.5767"
+								key="00087C02800027CDD856656656BAA7B868B62AA6A43C6477982AB49B61B57C350689C6670888A978000000000000000000000000000019A30000000017049142" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_6_2"
+		name="{=bryanfossoway}Byran Fossoway"
+		age="24"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.2791"
+								build="0.5137"
+								key="0002700800A0301789BDA68AE186649628E45774A98949B9D78796984164A39303B846350B686796000000000000000000000000000019A30000000049744042" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_6_3"
+		name="{=edwydfossoway}Edwyd Fossoway"
+		age="23"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.4376"
+								build="0.3978"
+								key="0005780618A016CC3C995974AB777BD69A7978661749B7744AD3C86A956AB9B600B676020B4E6541000000000000000000000000000019A300000000416C8002" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_7_1"
+		name="{=jonfossoway}Jon Fossoway"
+		age="27"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.5006"
+								build="0.1729"
+								key="0002340000E4190F668CA883A7CA6AB56955B6A9658568718A6C3A7A46A3A15A0293862509499658000000000000000000000000000019A3000000004B343102" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_7_2"
+					name="{=jannafossoway}Janna Fossoway"
+					age="27"
+					voice="earnest"
+					default_group="Cavalry"
+					is_hero="true"
+					is_female="true"
+					culture="Culture.reach"
+					occupation="Lord"
+					face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.3629"
+								build="0.533"
+								key="0002480D00A01006B6459C6494687F86568A1565BD4778169465687C4B67478C01985613099A80C700000000000000000000000000000000000000004D2C1103" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<!-- NONCOMBATANT FEMALE -->
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="6" />
+				<Trait id="Calculating"
+					   value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="rea_bat_template_lady" />
+				<EquipmentSet id="vla_noncom_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		
+		<NPCCharacter id="lord_RH_9_1"
+		name="{=gunthorgrimm}Gunthor Grimm"
+		age="27"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.1508"
+								build="0.7348"
+								key="0010A80AC01429D3396977A75DA4B46E87332A7D85765878B548AD9B986738D3045B204605783D7600000000000000000000000000000000000000003AB05142" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_10_1"
+		name="{=humfreyhewett}Humfrey Hewett"
+		age="33"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.7699"
+								build="0.7586"
+								key="00027C08C05832189A685B755A8D7E3B616476E089A3205278BB7993DA93BB85027BC024075736A900000000000000000000000000000000000000006AF880C2" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		
+		<NPCCharacter id="lord_RH_13_1"
+		name="{=martynmullendore}Martyn Mullendore"
+		age="26"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.2986"
+								build="0.2539"
+								key="0008D40C40CC324BBADAB8C5774518927B37C64277634998A79545D68CBBAC730264402406B5CD9A000000000000000000000000000000000000000034C83002" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_13_2"
+		name="{=marknmullendore}Mark Mullendore"
+		age="22"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.6435"
+								build="0.4425"
+								key="000D980D9CB4251A5D668837A76D7A85B8579677278C35C1C79749964C867C7501A7A0130A369D140000000000000000000000000000000000000000654030C2" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_14_1"
+		name="{=hosmannorcross}Hosman Norcross"
+		age="30"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.1308"
+								build="0.4905"
+								key="000588014044191B5D5728667887846954475C49CC2C8A468D943473694BB65B02772024076675A5000000000000000000000000000000000000000038F85042" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_14_2"
+				name="{=delenaflorent}Delena Florent"
+				age="30"
+				voice="earnest"
+				default_group="Cavalry"
+				is_hero="true"
+				is_female="true"
+				culture="Culture.reach"
+				occupation="Lord"
+				face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.2731"
+								build="0.3658"
+								key="00058006C0B410072BC3D38746AB655E69699B93BB48648956AE8816BAC45999007546030774BB59000000000000000000000000000000000000000026EC4103" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<!-- NONCOMBATANT FEMALE -->
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="6" />
+				<Trait id="Calculating"
+					   value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="rea_bat_template_lady" />
+				<EquipmentSet id="vla_noncom_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_14_3"
+		name="{=alesternorcross}Alester Norcross"
+		age="10"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.6368"
+								build="0.6141"
+								key="00105805402C27847A69C7D6A7237397864A46678862A129C8C38D5E595BA7770379A0310543B559000000000000000000000000000000000000000016F04042" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_14_4"
+		name="{=renlynorcross}Renly Norcross"
+		age="5"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.7507"
+								build="0.3572"
+								key="0008340D80FC2208326B91243537AAC5C7564B65889CD92578C3218C6AC68E960365B03104967EAB000000000000000000000000000000000000000060C82042" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_15_1"
+		name="{=tituspeake}Titus Peake"
+		age="27"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.4649"
+								build="0.7564"
+								key="00008808002C0843C99B5A7A6A95C85CD95948838A790547B9C39D3A6A7A6ACC005B700305998673000000000000000000000000000000000000000006B06142" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_15_2"
+				name="{=margotlannister}Margot Lannister"
+				age="26"
+				voice="earnest"
+				default_group="Cavalry"
+				is_hero="true"
+				is_female="true"
+				culture="Culture.reach"
+				occupation="Lord"
+				face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.1877"
+								build="0.3192"
+								key="00028006C02C1010B999AC5B4A8B61567DAAD8A2A5A7C786884265989898C8580295362509AA483900000000000000000000000000000000000000003D3C4003" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<!-- NONCOMBATANT FEMALE -->
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="6" />
+				<Trait id="Calculating"
+					   value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="rea_bat_template_lady" />
+				<EquipmentSet id="vla_noncom_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_16_1"
+		name="{=osbertserry}Osbert Serry"
+		age="31"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.6857"
+								build="0.8199"
+								key="0005A80D00CC2782C675C199A5977B7AA777E44A1CBA963A6B63594A7AB369A7017CA0130775A636000000000000000000000000000000000000000020E880C2" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_16_2"
+		name="Talbert Serry"
+		age="22"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.7097"
+								build="0.2011"
+								key="0000C80FC0E4135A876D3D7A2655A8B9C97E87594D526DA78AD7515C75AB25870493B64609EB698400000000000000000000000000000000000000005F3C7082" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		
+		<NPCCharacter id="lord_RH_18_1"
+		name="{=lordwillum}Willum"
+		age="45"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.7784"
+								build="0.5586"
+								key="000A5C0280FC368D38E3671C32C8AAC66B659A77BAC4DB566B4A876792A83BAA0358C6350589A43D000000000000000000000000000000000000000020AC50C2" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_18_2"
+		name="{=josuawillum}Josua Willum"
+		age="23"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.538"
+								build="0.4105"
+								key="00088C054FCC245AE8A8793B580361A93895DA7876472B283B34554742B7CB7A00A686030AB4E5770000000000000000000000000000000000000000415C5002" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lord_RH_18_3"
+		name="{=elyaswillum}Elyas Willum"
+		age="21"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.reach"
+		occupation="Lord"
+		face_mesh_cache="true">
+			<face>
+				<BodyProperties version="4"
+								weight="0.3795"
+								build="0.1939"
+								key="0005400400A0285B765846C95968789BC4BB7A668917D2EB9436A75B4C4565560083660308647727000000000000000000000000000000000000000019142142" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills"
+					   value="8" />
+				<Trait id="Commander"
+					   value="8" />
+				<Trait id="Politician"
+					   value="6" />
+				<Trait id="Manager"
+					   value="7" />
+				<Trait id="Mercy"
+					   value="-1" />
+				<Trait id="Generosity"
+					   value="-1" />
+				<Trait id="Honor"
+					   value="1" />
+				<Trait id="Valor"
+					   value="1" />
+				<Trait id="Calculating"
+					   value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="rea_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		
+	
+	<!--THE RIVERLANDS /-->
+	
+	<NPCCharacter id="lord_RL_1_1"
+				name="{=lymangoodbrook}Lyman Goodbrook"
+				age="19"
+				voice="earnest"
+				is_hero="true"
+				culture="Culture.river"
+				occupation="Lord"
+				default_group="Cavalry"
+				face_mesh_cache="true">
+		<face>
+			<!--face_key value="0000ed2fd47c0001f6dc47ab897187b66caa59a1e2e0a735dc984294be4e6657000b1b8408ac733400001105000030a30000001f000000000000000000005100" /-->
+			<BodyProperties version="4"
+							weight="0.3045"
+							build="0.661"
+							key="0018C40D00A029CECB9D578669A8575B9C958BC8B92595D868617BA9EA48AC8B018A56130859773C0000000000000000000000000000000000000000230C2102" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="4" />
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="riv_bat_template_medium" />
+			<EquipmentSet id="riv_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RL_1_2"
+				name="{=garsegoodbrook}Garse Goodbrook"
+				age="28"
+				voice="ironic"
+				is_hero="true"
+				culture="Culture.river"
+				occupation="Lord"
+				default_group="Cavalry"
+				face_mesh_cache="true">
+		<face>
+			<!--face_key value="0000ed2fd47c0001f6dc47ab897187b66caa59a1e2e0a735dc984294be4e6657000b1b8408ac733400001105000030a30000001f000000000000000000005100" /-->
+			<BodyProperties version="4"
+							weight="0.5563"
+							build="0.661"
+							key="0020980F0058318438B89B3876E7C5BDB3669474C59795445268696B96B67CAE036A863506DE948300000000000000000000000000000000000000002ED47082" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="4" />
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="riv_bat_template_medium" />
+			<EquipmentSet id="riv_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RL_1_3"
+				name="Kyra Frey"
+				voice="softspoken"
+				age="28"
+				default_group="Cavalry"
+				is_hero="true"
+				is_female="true"
+				culture="Culture.river"
+				occupation="Lord"
+				face_mesh_cache="true">
+		<face>
+			<!--face_key value="000cb99b00001003963657a49e526d58a75688678546525569688969855687d60007d006049779870000000000000ffe00000000000000000000000000000000" /-->
+			<BodyProperties version="4"
+							weight="0.3113"
+							build="0.5524"
+							key="0008780D90B42007473AA4A7ADE6778AB6449638A68976D8C5798A884CC5874502785624078B9A7500000000000000000000000000000000000000003CF42083" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!--NONCOMBATANT FEMALE-->
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Generosity"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="riv_bat_template_lady" />
+			<EquipmentSet id="riv_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RL_1_4"
+				name="{=waldergoodbrook}Walder Goodbrook"
+				age="9"
+				voice="ironic"
+				is_hero="true"
+				culture="Culture.river"
+				occupation="Lord"
+				default_group="Cavalry"
+				face_mesh_cache="true">
+		<face>
+			<!--face_key value="0000ed2fd47c0001f6dc47ab897187b66caa59a1e2e0a735dc984294be4e6657000b1b8408ac733400001105000030a30000001f000000000000000000005100" /-->
+			<BodyProperties version="4"
+							weight="0.3258"
+							build="0.6266"
+							key="0008680E408809C60B76BA76826565E2A68D92C95B4B926C1B51D978999697450D6950D109BD6825000000000000000000000000000000000000000000C85102" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="4" />
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="riv_bat_template_medium" />
+			<EquipmentSet id="riv_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RL_1_5"
+				name="Jeyne Goodbrook"
+				voice="softspoken"
+				age="6"
+				default_group="Cavalry"
+				is_hero="true"
+				is_female="true"
+				culture="Culture.river"
+				occupation="Lord"
+				face_mesh_cache="true">
+		<face>
+			<!--face_key value="000cb99b00001003963657a49e526d58a75688678546525569688969855687d60007d006049779870000000000000ffe00000000000000000000000000000000" /-->
+			<BodyProperties version="4"
+							weight="0.4935"
+							build="0.3775"
+							key="0005880F007000038CDD56738A6A61659775DA5D4B839BB6A381CEAA76B8276A0EB676110D6C675A00000000000000000000000000000000000000003D6C3103" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!--NONCOMBATANT FEMALE-->
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Generosity"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="riv_bat_template_lady" />
+			<EquipmentSet id="riv_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RL_2_1"
+				name="{=leslynhaigh}Leslyn Haigh"
+				age="39"
+				voice="ironic"
+				is_hero="true"
+				culture="Culture.river"
+				occupation="Lord"
+				default_group="Cavalry"
+				face_mesh_cache="true">
+		<face>
+			<!--face_key value="0000ed2fd47c0001f6dc47ab897187b66caa59a1e2e0a735dc984294be4e6657000b1b8408ac733400001105000030a30000001f000000000000000000005100" /-->
+			<BodyProperties version="4"
+							weight="0.6464"
+							build="0.6868"
+							key="0005A40D00B4008DA87C28685734669A8BA44AB89D1828683889599A4B1B773A019AA01409344C93000000000000000000000000000000000000000001207002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="4" />
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="riv_bat_template_medium" />
+			<EquipmentSet id="riv_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RL_2_2"
+				name="Perriane Frey"
+				voice="softspoken"
+				age="39"
+				default_group="Cavalry"
+				is_hero="true"
+				is_female="true"
+				culture="Culture.river"
+				occupation="Lord"
+				face_mesh_cache="true">
+		<face>
+			<!--face_key value="000cb99b00001003963657a49e526d58a75688678546525569688969855687d60007d006049779870000000000000ffe00000000000000000000000000000000" /-->
+			<BodyProperties version="4"
+							weight="0.5803"
+							build="0.5"
+							key="000DB80E40700002956387397A7BB99744783C22752396A6A269CB896A77525301B796130B6794840000000000000000000000000000000000000000236400C3" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!--NONCOMBATANT FEMALE-->
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="8" />
+			<Trait id="Generosity"
+				   value="-1" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="riv_bat_template_lady" />
+			<EquipmentSet id="riv_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RL_2_3"
+				name="{=haryshaigh}Harys Haigh"
+				age="22"
+				voice="curt"
+				is_hero="true"
+				culture="Culture.river"
+				occupation="Lord"
+				default_group="Cavalry"
+				face_mesh_cache="true">
+		<face>
+			<!--face_key value="0000ed2fd47c0001f6dc47ab897187b66caa59a1e2e0a735dc984294be4e6657000b1b8408ac733400001105000030a30000001f000000000000000000005100" /-->
+			<BodyProperties version="4"
+							weight="0.3074"
+							build="0.157"
+							key="0002400C408836C28B9ABBA45D77A68848D3E4AC4D8B7B429765D7516C78763A027250240787D97800000000000000000000000000000000000000000ED86002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="4" />
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="riv_bat_template_medium" />
+			<EquipmentSet id="riv_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RL_2_4"
+			name="{=donnelhaigh}Donnel Haigh"
+			age="19"
+			voice="ironic"
+			is_hero="true"
+			culture="Culture.river"
+			occupation="Lord"
+			default_group="Cavalry"
+			face_mesh_cache="true">
+		<face>
+			<!--face_key value="0000ed2fd47c0001f6dc47ab897187b66caa59a1e2e0a735dc984294be4e6657000b1b8408ac733400001105000030a30000001f000000000000000000005100" /-->
+			<BodyProperties version="4"
+							weight="0.552"
+							build="0.5748"
+							key="00139C0F00A01483D7D75484598C37A8DE379637A983A934779583B7B6B36A58009980030934D7D800000000000000000000000000000000000000003B3800C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="4" />
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="riv_bat_template_medium" />
+			<EquipmentSet id="riv_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RL_2_5"
+			name="{=alynhaigh}Alyn Haigh"
+			age="10"
+			voice="ironic"
+			is_hero="true"
+			culture="Culture.river"
+			occupation="Lord"
+			default_group="Cavalry"
+			face_mesh_cache="true">
+		<face>
+			<!--face_key value="0000ed2fd47c0001f6dc47ab897187b66caa59a1e2e0a735dc984294be4e6657000b1b8408ac733400001105000030a30000001f000000000000000000005100" /-->
+			<BodyProperties version="4"
+							weight="0.7205"
+							build="0.745"
+							key="0002AC0F00FC178FD97448688A496287989876BEB775836499AA7754D51789EC0D8BB0D10BB5A88A00000000000000000000000000000000000000002B1090C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="4" />
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="riv_bat_template_medium" />
+			<EquipmentSet id="riv_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RL_2_6"
+			name="{=walderhaigh}Walder Haigh"
+			age="5"
+			voice="ironic"
+			is_hero="true"
+			culture="Culture.river"
+			occupation="Lord"
+			default_group="Cavalry"
+			face_mesh_cache="true">
+		<face>
+			<!--face_key value="0000ed2fd47c0001f6dc47ab897187b66caa59a1e2e0a735dc984294be4e6657000b1b8408ac733400001105000030a30000001f000000000000000000005100" /-->
+			<BodyProperties version="4"
+							weight="0.4212"
+							build="0.127"
+							key="0002840F0088070BA938A486595C87AC79B47A21C2C5A0B9B7387BBDD9689A6A07826072089986D800000000000000000000000000000000000000003B1070C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="4" />
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="riv_bat_template_medium" />
+			<EquipmentSet id="riv_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="lord_RL_4_2"
+		name="{=lewyspiper}Lewys Piper"
+		age="18"
+		voice="ironic"
+		is_hero="true"
+		culture="Culture.river"
+		occupation="Lord"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="0000ed2fd47c0001f6dc47ab897187b66caa59a1e2e0a735dc984294be4e6657000b1b8408ac733400001105000030a30000001f000000000000000000005100" /-->
+			<BodyProperties version="4"
+							weight="0.4473"
+							build="0.3706"
+							key="000AB806001408579A657B8D9987952C35A3BB786A65D8A7A7BC6D5675376A35009670030974E5686E000000000F0000000000000000002600000000412860C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="4" />
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="riv_bat_template_medium" />
+			<EquipmentSet id="riv_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RL_5_1"
+	name="{=rolandvance}Roland Vance"
+	age="35"
+	voice="ironic"
+	is_hero="true"
+	culture="Culture.river"
+	occupation="Lord"
+	default_group="Cavalry"
+	face_mesh_cache="true">
+		<face>
+			<!--face_key value="0000ed2fd47c0001f6dc47ab897187b66caa59a1e2e0a735dc984294be4e6657000b1b8408ac733400001105000030a30000001f000000000000000000005100" /-->
+			<BodyProperties version="4"
+							weight="0.4086"
+							build="0.5"
+							key="00055408C000268AAA589B6D946637986C6AC7B9B744829697264A2A4C6C657C00776B0307B8538900001105000030A30000001F000000000000000036D80142" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="4" />
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="riv_bat_template_medium" />
+			<EquipmentSet id="riv_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RL_5_2"
+	name="{=hugovance}Hugo Vance"
+	age="31"
+	voice="ironic"
+	is_hero="true"
+	culture="Culture.river"
+	occupation="Lord"
+	default_group="Cavalry"
+	face_mesh_cache="true">
+		<face>
+			<!--face_key value="0000ed2fd47c0001f6dc47ab897187b66caa59a1e2e0a735dc984294be4e6657000b1b8408ac733400001105000030a30000001f000000000000000000005100" /-->
+			<BodyProperties version="4"
+							weight="0.4086"
+							build="0.5"
+							key="0005400E4000338743B566CB44C435255A7E745E775DAA5A9687B3877E36E86100A76B030A94189B00001105000030A30000001F000000000000000025400102" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="4" />
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="riv_bat_template_medium" />
+			<EquipmentSet id="riv_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RL_5_3"
+	name="{=elleryvance}Ellery Vance"
+	age="27"
+	voice="ironic"
+	is_hero="true"
+	culture="Culture.river"
+	occupation="Lord"
+	default_group="Cavalry"
+	face_mesh_cache="true">
+		<face>
+			<!--face_key value="0000ed2fd47c0001f6dc47ab897187b66caa59a1e2e0a735dc984294be4e6657000b1b8408ac733400001105000030a30000001f000000000000000000005100" /-->
+			<BodyProperties version="4"
+							weight="0.6558"
+							build="0.7719"
+							key="00028C0C4070219C9A4E79C888A5A89C6AA9837B6644891DA25BC654CE9AD615005CAB03054684DB00001105000030A30000001F00000000000000004AA01142" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="4" />
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="riv_bat_template_medium" />
+			<EquipmentSet id="riv_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_RL_5_4"
+	name="{=kirthvance}Kirth Vance"
+	age="27"
+	voice="ironic"
+	is_hero="true"
+	culture="Culture.river"
+	occupation="Lord"
+	default_group="Cavalry"
+	face_mesh_cache="true">
+		<face>
+			<!--face_key value="0000ed2fd47c0001f6dc47ab897187b66caa59a1e2e0a735dc984294be4e6657000b1b8408ac733400001105000030a30000001f000000000000000000005100" /-->
+			<BodyProperties version="4"
+							weight="0.5575"
+							build="0.7719"
+							key="0002A00D80B43348A43A858A77CDA0388B6AD3C4C356B7C966A3A8C83AA7A518009C8B030934264600001105000030A30000001F000000000000000011282002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="4" />
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Honor"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="riv_bat_template_medium" />
+			<EquipmentSet id="riv_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<!--THE STORMLANDS-->
+
+	<NPCCharacter id="lord_SL_1_2"
+			  name="Rolland Storm"
+			  age="21"
+			  voice="earnest"
+			  is_hero="true"
+			  culture="Culture.stormlands"
+			  occupation="Lord"
+			  default_group="Cavalry"
+			  face_mesh_cache="true">
+		<face>
+			<!--face_key value="00024C0600B4161378B836558489B294E6366B77CC94585798B3A325D9DB8892006A360306C4499900000000000000000000000000000000000000003AD44142" /-->
+			<BodyProperties version="4"
+							weight="0.8001"
+							build="0.3383"
+							key="0005B8098070280B5D86D227957765A174666889A5647A7AAA6B5296986A85830335C635038CDB4D00000000000000000000000000000000000000005C5C5042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="3" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="sto_bat_template_heavy" />
+			<EquipmentSet id="sto_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SL_2_1"
+			  name="Hugh Grandison"
+			  age="66"
+			  voice="earnest"
+			  is_hero="true"
+			  culture="Culture.stormlands"
+			  occupation="Lord"
+			  default_group="Cavalry"
+			  face_mesh_cache="true">
+		<face>
+			<!--face_key value="00024C0600B4161378B836558489B294E6366B77CC94585798B3A325D9DB8892006A360306C4499900000000000000000000000000000000000000003AD44142" /-->
+			<BodyProperties version="4"
+							weight="0.7319"
+							build="0.7335"
+							key="00056C0080883A093D57B7D7697968827E7A94BA69748B9A896878C8906CC369098BB69A0887636A000000000000000000000000000000000000000044FC9002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="3" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="sto_bat_template_heavy" />
+			<EquipmentSet id="sto_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SL_2_2"
+		  name="Narbert Grandison"
+		  age="31"
+		  voice="earnest"
+		  is_hero="true"
+		  culture="Culture.stormlands"
+		  occupation="Lord"
+		  default_group="Cavalry"
+		  face_mesh_cache="true">
+		<face>
+			<!--face_key value="00024C0600B4161378B836558489B294E6366B77CC94585798B3A325D9DB8892006A360306C4499900000000000000000000000000000000000000003AD44142" /-->
+			<BodyProperties version="4"
+							weight="0.6539"
+							build="0.3431"
+							key="0005A004172C03CE4957779379794499897379582994E736C98BA8274A6CB7C50175A613078449D400000000000000000000000000000000000000002EEC0082" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="3" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="sto_bat_template_heavy" />
+			<EquipmentSet id="sto_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SL_3_1"
+	  name="Bonifer Hasty"
+	  age="55"
+	  voice="earnest"
+	  is_hero="true"
+	  culture="Culture.stormlands"
+	  occupation="Lord"
+	  default_group="Cavalry"
+	  face_mesh_cache="true">
+		<face>
+			<!--face_key value="00024C0600B4161378B836558489B294E6366B77CC94585798B3A325D9DB8892006A360306C4499900000000000000000000000000000000000000003AD44142" /-->
+			<BodyProperties version="4"
+							weight="0.554"
+							build="0.2275"
+							key="0015580780442085588A7A3ABB99C56686D75D666BB4BEA57E88535CE88A968B018386130884529800000000000000000000000000000000000000002F1C7082" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="3" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="sto_bat_template_heavy" />
+			<EquipmentSet id="sto_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SL_4_1"
+	  name="Richard Horpe"
+	  age="23"
+	  voice="earnest"
+	  is_hero="true"
+	  culture="Culture.stormlands"
+	  occupation="Lord"
+	  default_group="Cavalry"
+	  face_mesh_cache="true">
+		<face>
+			<!--face_key value="00024C0600B4161378B836558489B294E6366B77CC94585798B3A325D9DB8892006A360306C4499900000000000000000000000000000000000000003AD44142" /-->
+			<BodyProperties version="4"
+							weight="0.554"
+							build="0.5765"
+							key="001B980D805827C99BEB16C162937567A8875DBB2C243ED256A253364C65535C027986240725CB2B000000000000000000000000000000000000000050EC2002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="3" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="sto_bat_template_heavy" />
+			<EquipmentSet id="sto_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SL_5_1"
+	  name="Lester Morrigen"
+	  age="26"
+	  voice="earnest"
+	  is_hero="true"
+	  culture="Culture.stormlands"
+	  occupation="Lord"
+	  default_group="Cavalry"
+	  face_mesh_cache="true">
+		<face>
+			<!--face_key value="00024C0600B4161378B836558489B294E6366B77CC94585798B3A325D9DB8892006A360306C4499900000000000000000000000000000000000000003AD44142" /-->
+			<BodyProperties version="4"
+							weight="0.6777"
+							build="0.6784"
+							key="0005E80A40E420457D1D87A85296AA2455485695756AB8297884572A48AA5A9900DAA6030D676426000000000000000000000000000000000000000059B45102" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="3" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="sto_bat_template_heavy" />
+			<EquipmentSet id="sto_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SL_5_2"
+	  name="Richard Morrigen"
+	  age="24"
+	  voice="earnest"
+	  is_hero="true"
+	  culture="Culture.stormlands"
+	  occupation="Lord"
+	  default_group="Cavalry"
+	  face_mesh_cache="true">
+		<face>
+			<!--face_key value="00024C0600B4161378B836558489B294E6366B77CC94585798B3A325D9DB8892006A360306C4499900000000000000000000000000000000000000003AD44142" /-->
+			<BodyProperties version="4"
+							weight="0.2597"
+							build="0.6784"
+							key="00056C04C0A005CD9264F715A85687B4759D5742E65C08A55469975887A7897A02BA46240BA2945D000000000000000000000000000000000000000059640142" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="3" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="sto_bat_template_heavy" />
+			<EquipmentSet id="sto_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SL_5_3"
+	  name="Guyard Morrigen"
+	  age="21"
+	  voice="earnest"
+	  is_hero="true"
+	  culture="Culture.stormlands"
+	  occupation="Lord"
+	  default_group="Cavalry"
+	  face_mesh_cache="true">
+		<face>
+			<!--face_key value="00024C0600B4161378B836558489B294E6366B77CC94585798B3A325D9DB8892006A360306C4499900000000000000000000000000000000000000003AD44142" /-->
+			<BodyProperties version="4"
+							weight="0.4928"
+							build="0.1167"
+							key="00053C0D802C209583BB84A8393B44A2859A7A88CC58682AA79C8AB5CC8777380152761305A56E36000000000000000000000000000000000000000014A49002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="3" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="sto_bat_template_heavy" />
+			<EquipmentSet id="sto_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	<NPCCharacter id="lord_SL_9_1"
+	  name="Gulian Swann"
+	  age="49"
+	  voice="ironic"
+	  is_hero="true"
+	  culture="Culture.stormlands"
+	  occupation="Lord"
+	  default_group="Cavalry"
+	  face_mesh_cache="true">
+		<face>
+			<!--face_key value="00024C0600B4161378B836558489B294E6366B77CC94585798B3A325D9DB8892006A360306C4499900000000000000000000000000000000000000003AD44142" /-->
+			<BodyProperties version="4"
+							weight="0.6625"
+							build="0.0418"
+							key="00056C08007027D296996D9857896377485956BD4A9A66B8B95776DBC99468550371A6350762EA93000000000000000000000000000000000000000020EC7002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="3" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="sto_bat_template_heavy" />
+			<EquipmentSet id="sto_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SL_9_2"
+	  name="Donnel Swann"
+	  age="26"
+	  voice="ironic"
+	  is_hero="true"
+	  culture="Culture.stormlands"
+	  occupation="Lord"
+	  default_group="Cavalry"
+	  face_mesh_cache="true">
+		<face>
+			<!--face_key value="00024C0600B4161378B836558489B294E6366B77CC94585798B3A325D9DB8892006A360306C4499900000000000000000000000000000000000000003AD44142" /-->
+			<BodyProperties version="4"
+							weight="0.1731"
+							build="0.1389"
+							key="00088004C01402D225C976AA7DBA2B9723A3D53966361CA769776B7A79966F2802B236240B66B19500000000000000000000000000000000000000002B8470C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="3" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="sto_bat_template_heavy" />
+			<EquipmentSet id="sto_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SL_9_2"
+	  name="Donnel Swann"
+	  age="26"
+	  voice="ironic"
+	  is_hero="true"
+	  culture="Culture.stormlands"
+	  occupation="Lord"
+	  default_group="Cavalry"
+	  face_mesh_cache="true">
+		<face>
+			<!--face_key value="00024C0600B4161378B836558489B294E6366B77CC94585798B3A325D9DB8892006A360306C4499900000000000000000000000000000000000000003AD44142" /-->
+			<BodyProperties version="4"
+							weight="0.1731"
+							build="0.1389"
+							key="00088004C01402D225C976AA7DBA2B9723A3D53966361CA769776B7A79966F2802B236240B66B19500000000000000000000000000000000000000002B8470C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="3" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="sto_bat_template_heavy" />
+			<EquipmentSet id="sto_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SL_10_1"
+	  name="Humfrey Wagstaff"
+	  age="69"
+	  voice="ironic"
+	  is_hero="true"
+	  culture="Culture.stormlands"
+	  occupation="Lord"
+	  default_group="Cavalry"
+	  face_mesh_cache="true">
+		<face>
+			<!--face_key value="00024C0600B4161378B836558489B294E6366B77CC94585798B3A325D9DB8892006A360306C4499900000000000000000000000000000000000000003AD44142" /-->
+			<BodyProperties version="4"
+							weight="0.4989"
+							build="0.5851"
+							key="00088C0FC0A01340E4E7CB89D63D3D7219B1883E95C67C899682991526DB718D0539765703B99628000000000000000000000000000000000000000022540082" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="6" />
+			<Trait id="Commander"
+				   value="3" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="4" />
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="sto_bat_template_heavy" />
+			<EquipmentSet id="sto_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- THE VALE LORDS-->
+
+	<NPCCharacter id="lord_VH_3_1"
+			  name="Jon Lynderly"
+			  default_group="Cavalry"
+			  age="29"
+			  voice="ironic"
+			  is_hero="true"
+			  is_female="false"
+			  culture="Culture.vale"
+			  occupation="Lord"
+			  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5049"
+							build="0.3567"
+							key="5595" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				 value="5" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="val_bat_template_medium" />
+			<EquipmentSet id="val_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_VH_3_2"
+		  name="Terrance Lynderly"
+		  default_group="Cavalry"
+		  age="10"
+		  voice="softspoken"
+		  is_hero="true"
+		  is_female="false"
+		  culture="Culture.vale"
+		  occupation="Lord"
+		  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5595"
+							build="0.307"
+							key="00056C0FC0141A5666A56DB98B84C92B865C85D9965698766645662979BE554A0198561105D987687FFFB4EF7F005FFA0000000000001AA4000000004F2470C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				 value="5" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="val_bat_template_medium" />
+			<EquipmentSet id="val_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_VH_4_2"
+		  name="Albar Royce"
+		  default_group="Cavalry"
+		  age="23"
+		  voice="ironic"
+		  is_hero="true"
+		  is_female="false"
+		  culture="Culture.vale"
+		  occupation="Lord"
+		  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5"
+							build="0.4"
+							key="00054C0F007012C5F6DC47AB897687B66CAA5974E290A735DC987794BE4E665700B67B030BAC790648001105000030A30000001F0000003B0000000001705102" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				 value="5" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="val_bat_template_royce" />
+			<EquipmentSet id="val_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_VH_4_3"
+				  name="Myranda Royce"
+				  default_group="Cavalry"
+				  age="21"
+				  voice="curt"
+				  is_hero="true"
+				  is_female="true"
+				  culture="Culture.vale"
+				  occupation="Lord"
+				  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.7631"
+							build="0.3472"
+							key="00006008008820077A77984B9B474777B6C88CB5629374C696AC1C6788B5576E0135B613031229530000000000000000000000000000000000000000506C30C3" />
+		</face>
+		<skills></skills>
+		<Traits>
+
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="2" />
+			<!-- Encurion's cousin -->
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="0" />
+			<Trait id="Generosity"
+				   value="0" />
+			<Trait id="Oligarchic"
+				   value="+1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="val_bat_template_lady" />
+			<EquipmentSet id="val_noncom_template_flamboyant"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_VH_6_1"
+			  name="Damon Shett"
+			  default_group="Cavalry"
+			  age="19"
+			  voice="ironic"
+			  is_hero="true"
+			  is_female="false"
+			  culture="Culture.vale"
+			  occupation="Lord"
+			  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.8557"
+							build="0.5445"
+							key="0002780200882A0E7F435A86B7B718863BE7D7557887B79581CA499783AE46CB0138D014034CD3AC00000000000000000000000000000000000000002E709002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				 value="5" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="val_bat_template_medium" />
+			<EquipmentSet id="val_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_VH_7_1"
+		  name="Triston Sunderland"
+		  default_group="Cavalry"
+		  age="39"
+		  voice="ironic"
+		  is_hero="true"
+		  is_female="false"
+		  culture="Culture.vale"
+		  occupation="Lord"
+		  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.2654"
+							build="0.5445"
+							key="000578040014008BB86A538A259387613B628CE75D31469B6A88C5576C6476C50148401304A845B800000000000000000000000000000000000000002E908002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				 value="5" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="val_bat_template_medium" />
+			<EquipmentSet id="val_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_VH_8_1"
+	  name="Symond Templeton"
+	  default_group="Cavalry"
+	  age="24"
+	  voice="ironic"
+	  is_hero="true"
+	  is_female="false"
+	  culture="Culture.vale"
+	  occupation="Lord"
+	  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.7953"
+							build="0.2522"
+							key="000A4C0FC07038522B3856354876977D963974A8397A4549C86B8A9DAC8AA35703B4C0350BB8588A000000000000000000000000000000000000000071605042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				 value="5" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="val_bat_template_medium" />
+			<EquipmentSet id="val_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_VH_9_1"
+	  name="Uthor Tollett"
+	  default_group="Cavalry"
+	  age="29"
+	  voice="ironic"
+	  is_hero="true"
+	  is_female="false"
+	  culture="Culture.vale"
+	  occupation="Lord"
+	  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.2316"
+							build="0.2522"
+							key="0002B0014000318EAA3B6A9BAC5567D569E75D3325864C85A899866DD8C2CEA40184301308BDDA8C0000000000000000000000000000000000000000211830C2" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				 value="5" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="val_bat_template_medium" />
+			<EquipmentSet id="val_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_VH_9_2"
+	  name="Andrew Tollett"
+	  default_group="Cavalry"
+	  age="25"
+	  voice="ironic"
+	  is_hero="true"
+	  is_female="false"
+	  culture="Culture.vale"
+	  occupation="Lord"
+	  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.564"
+							build="0.3851"
+							key="0008900280B419136A8BA5ABC67987688576563766872898E68BD9B92A9AA2B600868003088A6273000000000000000000000000000000000000000058F89142" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				 value="5" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="val_bat_template_medium" />
+			<EquipmentSet id="val_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_VH_10_1"
+				  name="Anya Waynwood"
+				  default_group="Cavalry"
+				  age="53"
+				  voice="curt"
+				  is_hero="true"
+				  is_female="true"
+				  culture="Culture.vale"
+				  occupation="Lord"
+				  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5987"
+							build="0.3872"
+							key="00021C09807010154356B75675788866678117475877818A89B387377AA6AC5A0656966705475776000000000000000000000000000000000000000048B41003" />
+		</face>
+		<skills></skills>
+		<Traits>
+
+			<Trait id="Politician"
+				   value="3" />
+			<Trait id="Manager"
+				   value="2" />
+			<!-- Encurion's cousin -->
+			<Trait id="Valor"
+				   value="1" />
+			<Trait id="Calculating"
+				   value="0" />
+			<Trait id="Generosity"
+				   value="0" />
+			<Trait id="Oligarchic"
+				   value="+1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="val_bat_template_lady" />
+			<EquipmentSet id="val_noncom_template_flamboyant"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_VH_10_2"
+	  name="Morton Waynwood"
+	  default_group="Cavalry"
+	  age="36"
+	  voice="ironic"
+	  is_hero="true"
+	  is_female="false"
+	  culture="Culture.vale"
+	  occupation="Lord"
+	  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5986"
+							build="0.4168"
+							key="00053C06C0580602487717A5314DA879A3874866584A6D973879AC588643695E0176961407773879000000000000000000000000000019A30000000030F43042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				 value="5" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="val_bat_template_medium" />
+			<EquipmentSet id="val_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_VH_10_3"
+	  name="Donnel Waynwood"
+	  default_group="Cavalry"
+	  age="30"
+	  voice="ironic"
+	  is_hero="true"
+	  is_female="false"
+	  culture="Culture.vale"
+	  occupation="Lord"
+	  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4824"
+							build="0.6622"
+							key="0005780AC05801CF878598769541454699A28BCBDC4B9DF544A353B584A18659026A762406AAAD79000000000000000000000000000019A3000000005ABC9102" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				 value="5" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="val_bat_template_medium" />
+			<EquipmentSet id="val_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_VH_10_4"
+	  name="Wallace Waynwood"
+	  default_group="Cavalry"
+	  age="21"
+	  voice="ironic"
+	  is_hero="true"
+	  is_female="false"
+	  culture="Culture.vale"
+	  occupation="Lord"
+	  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.9348"
+							build="0.411"
+							key="0002780AC08830023FDAB69BA57B71BA6678E69DD7877788318DA3A7AD58B5110096E6030934C49D000000000000000000000000000019A3000000000D244042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				 value="5" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="val_bat_template_medium" />
+			<EquipmentSet id="val_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_VH_10_5"
+	  name="Roland Waynwood"
+	  default_group="Cavalry"
+	  age="18"
+	  voice="ironic"
+	  is_hero="true"
+	  is_female="false"
+	  culture="Culture.vale"
+	  occupation="Lord"
+	  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4348"
+							build="0.411"
+							key="0005780800B4201BA7E69A3CBEC8EA368B6B78122A6868B57646638973A1697300867603085B0879000000000000000000000000000019A300000000191C3142" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+				 value="5" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Calculating"
+				   value="1" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="val_bat_template_medium" />
+			<EquipmentSet id="val_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!--LORDS OF THE WESTERLANDS-->
+
+	
+	<NPCCharacter id="lord_WL_2_1"
+				name="Regenard Estren"
+				age="31"
+				voice="curt"
+				default_group="Cavalry"
+				is_hero="true"
+				culture="Culture.vlandia"
+				occupation="Lord"
+				face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.0362"
+							build="0.3022"
+							key="002028028070338555567B995748A8D977999A486B3AE86475A4A39178EBBC330275162407E9637600000000000000000000000000000000000000002CE40042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_3_1"
+				name="Sebaston Farman"
+				age="26"
+				voice="curt"
+				default_group="Cavalry"
+				is_hero="true"
+				culture="Culture.vlandia"
+				occupation="Lord"
+				face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.2237"
+							build="0.5123"
+							key="00056809805817867926585897A88888854BD88E589568E9AAE566898838BEEA0248362404A58978000000000000000000000000000000000000000044844042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_9_1"
+			name="Damon Marbrand"
+			age="47"
+			voice="curt"
+			default_group="Cavalry"
+			is_hero="true"
+			culture="Culture.vlandia"
+			occupation="Lord"
+			face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.8222"
+							build="0.197"
+							key="0013D0000058179487333ACA6A48BC95791C4B8A68C2665674ABBBA362895C640163C01306B71686000000000000000000000000000000000000000024C87101"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_10_1"
+			name="Robin Moreland"
+			age="29"
+			voice="curt"
+			default_group="Cavalry"
+			is_hero="true"
+			culture="Culture.vlandia"
+			occupation="Lord"
+			face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.3542"
+							build="0.4929"
+							key="0005C00F007023068F7738486AE653937976D798B687665376FB748C6346DC4A0177501307475686000000000000000000000000000000000000000010F05041"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_11_1"
+			name="Phillip Plumm"
+			age="47"
+			voice="curt"
+			default_group="Cavalry"
+			is_hero="true"
+			culture="Culture.vlandia"
+			occupation="Lord"
+			face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4466"
+							build="0.6283"
+							key="0010BC0A4F440808B7B98594925067AA6A56B6C7499E9D9CE83925696A747A880439764503C7896900000000000000000000000000000000000000002C545082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_11_2"
+		name="Dennis Plumm"
+		age="29"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4466"
+							build="0.4084"
+							key="0008D00A40E4188D657B875A8C354A883657596C64865A4C9C79877388A59D9300A676030AD7A969000000000000000000000000000000000000000025440102"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_11_3"
+		name="Peter Plumm"
+		age="26"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.8243"
+							build="0.5469"
+							key="000A4C0A40E42208C4766A51A88544AB4AAAB614B5BA426C4A7E88278A7CCB950098C6030929634D00000000000000000000000000000000000000003F3490C2"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_11_4"
+		name="Harwyn Plumm"
+		age="21"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.602"
+							build="0.757"
+							key="00059C0A570038427558656B75482428C6689834928C9337265951A3B8AB646D00BB96020B4C9923000000000000000000000000000000000000000021646042"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_12_1"
+	name="Garrison Prester"
+	age="31"
+	voice="curt"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.vlandia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.3439"
+							build="0.4024"
+							key="0023280780B432595A2637339566556C496ADA864436A938645754DA7683656D0456564505A99D88000000000000000000000000000000000000000010BC8042"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_12_2"
+	name="Forely Prester"
+	age="38"
+	voice="curt"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.vlandia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5129"
+							build="0.2508"
+							key="0002A40AC0FC294087CA39F298668C75694AD698A5778C4884A31B2A2B635E10015486130575B6B700000000000000000000000000000000000000002EAC9042"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_13_1"
+	name="Raynard Ruttiger"
+	age="26"
+	voice="curt"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.vlandia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.3118"
+							build="0.4703"
+							key="0005740A4058000BD67CAD6A73EE94E27D47B829358B0698823B9B54767881610197561409799DE7000000000000000000000000000000000000000049348002"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_14_1"
+	name="Rolph Spicer"
+	age="48"
+	voice="curt"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.vlandia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.3657"
+							build="0.6065"
+							key="00009802008813055178B59A5D82348AC98B3499C57B8C4522AB98BBBBB356890879568907C9CDC8000000000000000000000000000000000000000048E41082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_14_2"
+	name="Samwell Spicer"
+	age="31"
+	voice="curt"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.vlandia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5911"
+							build="0.9679"
+							key="000D580140A0111A89AAB47AE99B3DA7378BA8A755795697788775785996598A04DF96460DAD4B18000000000000000000000000000000000000000055AC6042"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_15_1"
+	name="Selmond Stackspear"
+	age="49"
+	voice="ironic"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.vlandia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.5911"
+							build="0.5191"
+							key="0005900AC0A001136C8A864535A89279A7826B762CCDE8C77BA5ED8AA69F976903A896350ABDB6680000000000000000000000000000000000000000173C20C2"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_15_2"
+	name="Steffon Stackspear"
+	age="27"
+	voice="ironic"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.vlandia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.4582"
+							build="0.3875"
+							key="0005640B8014368A858356505A787B77C9BDC87928AF5A93E57CDD7EB65B37C801967613098447480000000000000000000000000000000000000000513C3102"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_15_3"
+	name="Alyn Stackspear"
+	age="24"
+	voice="ironic"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.vlandia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.7114"
+							build="0.5801"
+							key="00057C0A40FC15CC51A532BA493C249B9DE256C883367AAA2A7C7C9DB9A5BCB600C9B6030C59CAD80000000000000000000000000000000000000000259C20C2"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_16_1"
+	name="Lymond Vikary"
+	age="29"
+	voice="ironic"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.vlandia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.3911"
+							build="0.8305"
+							key="0005480280B4354FB88457877E55868679BC47942C59683AAA3574B594A8996E018C66130842DBDA0000000000000000000000000000000000000000230C1042"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_WL_17_1"
+	name="Manfryd Yew"
+	age="31"
+	voice="ironic"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.vlandia"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+							weight="0.312"
+							build="0.3007"
+							key="00026003401421D776B47E4BB645BA75BB778365758CA7536565528649D676A702655624066932CA000000000000000000000000000000000000000036D49142"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills"
+				   value="7" />
+			<Trait id="Commander"
+				   value="7" />
+			<Trait id="Politician"
+				   value="4" />
+			<Trait id="Manager"
+				   value="5" />
+			<Trait id="Mercy"
+				   value="-1" />
+			<Trait id="Generosity"
+				   value="1" />
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!--#endregion-->
+</NPCCharacters>
